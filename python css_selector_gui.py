@@ -2,6 +2,7 @@ from PySide6.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QTextEdit, QPushButton, QLabel
 )
 from bs4 import BeautifulSoup
+from html_content_finder import ContentFinder
 import sys
 
 # Mots-clés et listes d'exclusions pour le repérage de l'élément pertinent
@@ -100,8 +101,26 @@ class SelectorApp(QWidget):
         html = self.input_box.toPlainText().strip()
         if html:
             try:
-                selector = generate_css_selector_from_html(html)
-                self.result_output.setText(selector)
+                finder = ContentFinder(html)
+                element = finder.find_content_element()
+                if element:
+                    parts = []
+                    robust = finder.get_robust_selector()
+                    if robust:
+                        parts.append(robust)
+                    short = finder.get_short_selector()
+                    if short and short != robust:
+                        parts.append(short)
+                    xpath = finder.get_xpath()
+                    if xpath:
+                        parts.append(xpath)
+                    if parts:
+                        self.result_output.setText("\n".join(parts))
+                    else:
+                        self.result_output.setText("Aucun sélecteur généré.")
+                else:
+                    selector = generate_css_selector_from_html(html)
+                    self.result_output.setText(selector)
             except Exception as e:
                 self.result_output.setText(f"⚠️ Erreur : {str(e)}")
         else:
