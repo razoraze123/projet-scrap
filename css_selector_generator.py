@@ -113,6 +113,16 @@ def build_selector(elem) -> str:
     parts.reverse()
     return ' '.join(parts)
 
+def generate_selector(html: str) -> str:
+    """Return the best CSS selector for the given HTML snippet."""
+    soup = BeautifulSoup(html, 'html.parser')
+    target = choose_best_element(soup)
+    if target:
+        target = refine_candidate(target)
+    if target is None:
+        return ''
+    return build_selector(target)
+
 def main():
     parser = argparse.ArgumentParser(
         description="Generate the most stable CSS selector from an HTML snippet"
@@ -128,14 +138,9 @@ def main():
     else:
         html = sys.stdin.read()
 
-    soup = BeautifulSoup(html, 'html.parser')
-    target = choose_best_element(soup)
-    if target:
-        target = refine_candidate(target)
-    if target is None:
-        return
-    selector = build_selector(target)
-    print(selector)
+    selector = generate_selector(html)
+    if selector:
+        print(selector)
 
 if __name__ == '__main__':
     main()
