@@ -1,53 +1,33 @@
 # projet-scrap
 
-Ce dépôt fournit un petit outil graphique permettant d'obtenir rapidement un
-sélecteur CSS à partir d'un extrait de code HTML. Une bibliothèque plus
-complète est également disponible pour détecter le bloc de contenu principal
-dans un document.
+Ce dépôt propose plusieurs outils pour faciliter le repérage de sélecteurs CSS et l'extraction de données depuis une page web.
 
-## Utilisation de l'outil graphique
+## 1. Capture du sélecteur dans le navigateur
 
-Lancez simplement :
+Chargez le fichier `selector_capture.js` dans la console de votre navigateur (Chrome/Firefox). Le script affiche un message puis attend un clic :
+
+```javascript
+// Dans la console devtools
+// collez le contenu du fichier selector_capture.js
+```
+
+Cliquez ensuite sur l'élément ciblé. Le sélecteur unique est copié dans le presse‑papiers et stocké dans `window._lastCssSelector`.
+
+## 2. Extraction avec Selenium
+
+Le script `scraper.py` récupère le texte ou un attribut d'un élément à partir d'une URL et d'un sélecteur CSS :
 
 ```bash
-python3 "python css_selector_gui.py"
+python3 scraper.py "https://exemple.com" "div.article p.desc" -o resultat.csv
 ```
 
-Collez le HTML concerné puis cliquez sur **Générer le Sélecteur CSS**.
-L'outil utilise la bibliothèque `html_content_finder` pour identifier
-automatiquement le bloc de contenu principal et affiche le sélecteur robuste,
-le sélecteur court et le chemin XPath.
+Options :
 
-## Utilisation de la bibliothèque
+* `-a --attribute` – nom de l'attribut à extraire (par défaut, le texte interne)
+* `-o --output` – fichier CSV ou XLSX de sortie
 
-```python
-from html_content_finder import ContentFinder
+Le script utilise `webdriver-manager` pour télécharger automatiquement ChromeDriver.
 
-html_doc = """<html>...</html>"""
-finder = ContentFinder(html_doc)
-content_element = finder.find_content_element()
+## Bibliothèque historique
 
-if content_element:
-    print("Sélecteur robuste :", finder.get_robust_selector())
-    print("Sélecteur court :", finder.get_short_selector())
-    print("Chemin XPath :", finder.get_xpath())
-```
-
-### Exemple minimal
-
-```python
-from selector_utils import generate_css_selector_from_html
-
-html = """
-<div class="article">
-    <p class="desc">Bonjour</p>
-</div>
-"""
-
-print(generate_css_selector_from_html(html))
-# affiche : "div.article p.desc"
-```
-
-L'algorithme parcourt désormais l'arbre afin de repérer la balise de contenu
-la plus pertinente (classes contenant `rte`, `content`, `desc`, etc.) tout en
-ignorant les conteneurs génériques tels que `container` ou `wrapper`.
+Les modules `html_content_finder` et `selector_utils` fournissent des fonctions avancées pour déterminer le bloc principal d'une page ou générer un sélecteur à partir d'un extrait HTML. Ils restent disponibles en complément.
