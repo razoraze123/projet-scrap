@@ -14,6 +14,9 @@ python3 "python css_selector_gui.py"
 ```
 
 Collez le HTML concerné puis cliquez sur **Générer le Sélecteur CSS**.
+L'outil utilise la bibliothèque `html_content_finder` pour identifier
+automatiquement le bloc de contenu principal et affiche le sélecteur robuste,
+le sélecteur court et le chemin XPath.
 
 ## Utilisation de la bibliothèque
 
