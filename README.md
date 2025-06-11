@@ -1,9 +1,11 @@
 # projet-scrap
 
 Ce dépôt fournit un petit outil graphique permettant d'obtenir rapidement un
-sélecteur CSS à partir d'un extrait de code HTML.
+sélecteur CSS à partir d'un extrait de code HTML. Une bibliothèque plus
+complète est également disponible pour détecter le bloc de contenu principal
+dans un document.
 
-## Utilisation
+## Utilisation de l'outil graphique
 
 Lancez simplement :
 
@@ -12,6 +14,21 @@ python3 "python css_selector_gui.py"
 ```
 
 Collez le HTML concerné puis cliquez sur **Générer le Sélecteur CSS**.
+
+## Utilisation de la bibliothèque
+
+```python
+from html_content_finder import ContentFinder
+
+html_doc = """<html>...</html>"""
+finder = ContentFinder(html_doc)
+content_element = finder.find_content_element()
+
+if content_element:
+    print("Sélecteur robuste :", finder.get_robust_selector())
+    print("Sélecteur court :", finder.get_short_selector())
+    print("Chemin XPath :", finder.get_xpath())
+```
 
 ### Exemple minimal
 
