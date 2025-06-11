@@ -36,7 +36,7 @@ if content_element:
 ### Exemple minimal
 
 ```python
-from css_selector_gui import generate_css_selector_from_html
+from selector_utils import generate_css_selector_from_html
 
 html = """
 <div class="article">
