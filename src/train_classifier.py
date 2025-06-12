@@ -34,15 +34,15 @@ def main():
     )
 
     args = TrainingArguments(
-        output_dir=str(Path(__file__).resolve().parents[1] / "model" / "trained_model"),
-        evaluation_strategy="epoch",
-        save_strategy="epoch",
-        num_train_epochs=3,
+        output_dir="model/trained_model",
+        num_train_epochs=5,
         per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
-        load_best_model_at_end=True,
-        metric_for_best_model="accuracy",
+        learning_rate=5e-5,
         logging_dir="logs",
+        logging_steps=10,
+        save_steps=50,
+        save_total_limit=1,
+        do_train=True,
     )
 
     def compute_metrics(eval_pred):
