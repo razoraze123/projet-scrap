@@ -2,6 +2,7 @@ import sys
 import re
 import argparse
 from typing import List, Tuple
+from src.memoire_generale import ajouter_interaction
 from bs4 import BeautifulSoup
 
 # Inline and structural tags used to weight candidate elements
@@ -206,6 +207,10 @@ def main():
             html = f.read()
     else:
         html = prompt_input()
+    try:
+        ajouter_interaction("texte_libre", {"message": html})
+    except Exception:
+        pass
 
     soup = BeautifulSoup(html, 'html.parser')
     mode = args.mode
@@ -217,6 +222,13 @@ def main():
         target = refine_candidate(target)
         selector = build_selector(target)
         explanation = describe_element(target)
+        try:
+            ajouter_interaction(
+                "prediction",
+                {"html": str(target), "reponse": selector},
+            )
+        except Exception:
+            pass
         print(f"\u2705 S\u00e9lecteur g\u00e9n\u00e9r\u00e9 : {selector}")
         print(f"\U0001F9E0 Explication : {explanation}\n")
 

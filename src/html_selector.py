@@ -3,6 +3,7 @@ from pathlib import Path
 
 import torch
 from transformers import AutoModelForSequenceClassification, DistilBertTokenizerFast
+from src.memoire_generale import ajouter_interaction
 
 MODEL_DIR = Path(__file__).resolve().parent.parent / "model" / "html_selector"
 if not MODEL_DIR.exists():
@@ -22,4 +23,12 @@ def predire_selecteur(question: str, html: str) -> str:
     with torch.no_grad():
         logits = _model(**inputs).logits
         pred_id = logits.argmax(dim=1).item()
-    return _id2label[pred_id]
+    selector = _id2label[pred_id]
+    try:
+        ajouter_interaction(
+            "prediction",
+            {"question": question, "html": html, "reponse": selector},
+        )
+    except Exception:
+        pass
+    return selector

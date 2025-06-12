@@ -4,6 +4,7 @@ from pathlib import Path
 
 import torch
 from transformers import AutoModelForSequenceClassification, DistilBertTokenizerFast
+from src.memoire_generale import ajouter_interaction
 
 MODEL_DIR = Path(__file__).resolve().parent.parent / "model" / "trained_model"
 if not MODEL_DIR.exists():
@@ -24,7 +25,15 @@ def predict_intent(text: str) -> str:
     with torch.no_grad():
         outputs = model(**inputs)
         pred_id = outputs.logits.argmax(dim=1).item()
-    return id2label[pred_id]
+    label = id2label[pred_id]
+    try:
+        ajouter_interaction(
+            "prediction",
+            {"question": text, "reponse": label},
+        )
+    except Exception:
+        pass  # Logging failure should not break prediction
+    return label
 
 
 if __name__ == "__main__":
@@ -34,4 +43,11 @@ if __name__ == "__main__":
         sentence = " ".join(sys.argv[1:])
     else:
         sentence = input("Texte: ")
-    print(predict_intent(sentence))
+    ajouter_interaction("texte_libre", {"message": sentence})
+    try:
+        label = predict_intent(sentence)
+        ajouter_interaction("reponse", {"texte": label})
+    except Exception as e:
+        ajouter_interaction("erreur", {"exception": str(e)})
+        raise
+    print(label)

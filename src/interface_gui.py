@@ -2,6 +2,7 @@
 
 import tkinter as tk
 from html_selector import predire_selecteur
+from src.memoire_generale import ajouter_interaction
 
 
 def on_predict():
@@ -10,7 +11,17 @@ def on_predict():
     if not question.strip() or not html.strip():
         result_var.set("")
         return
-    selector = predire_selecteur(question, html)
+    ajouter_interaction("texte_libre", {"message": question})
+    try:
+        selector = predire_selecteur(question, html)
+        ajouter_interaction(
+            "prediction",
+            {"question": question, "html": html, "reponse": selector},
+        )
+        ajouter_interaction("reponse", {"texte": selector})
+    except Exception as e:  # pragma: no cover - UI exceptions aren't tested
+        ajouter_interaction("erreur", {"exception": str(e)})
+        selector = ""
     result_var.set(f"\U0001F9E0 Sélecteur prédit : {selector}")
 
 

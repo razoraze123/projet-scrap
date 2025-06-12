@@ -1,5 +1,6 @@
 from flask import Flask, request, render_template
 from css_selector_generator import generate_selector
+from src.memoire_generale import ajouter_interaction
 
 app = Flask(__name__)
 
@@ -9,7 +10,14 @@ def index():
     html_snippet = ''
     if request.method == 'POST':
         html_snippet = request.form.get('html', '')
-        selector = generate_selector(html_snippet)
+        ajouter_interaction("texte_libre", {"message": html_snippet})
+        try:
+            selector = generate_selector(html_snippet)
+            ajouter_interaction("prediction", {"html": html_snippet, "reponse": selector})
+            ajouter_interaction("reponse", {"texte": selector})
+        except Exception as e:
+            ajouter_interaction("erreur", {"exception": str(e)})
+            selector = ''
     return render_template('index.html', selector=selector, html=html_snippet)
 
 if __name__ == '__main__':

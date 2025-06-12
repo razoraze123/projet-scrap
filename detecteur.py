@@ -3,6 +3,7 @@ import argparse
 from bs4 import BeautifulSoup
 from intelligence import analyser_question
 from css_selector_generator import build_selector
+from src.memoire_generale import ajouter_interaction
 
 
 _LABEL_TAGS = {
@@ -31,7 +32,15 @@ def generer_selecteur(html: str, question: str) -> str:
     cible = choisir_meilleur(elements)
     if cible is None:
         return ""
-    return build_selector(cible)
+    selector = build_selector(cible)
+    try:
+        ajouter_interaction(
+            "prediction",
+            {"question": question, "html": html, "reponse": selector},
+        )
+    except Exception:
+        pass
+    return selector
 
 def main():
     parser = argparse.ArgumentParser(
@@ -47,7 +56,13 @@ def main():
     else:
         html = sys.stdin.read()
 
-    selector = generer_selecteur(html, args.question)
+    ajouter_interaction("texte_libre", {"message": args.question})
+    try:
+        selector = generer_selecteur(html, args.question)
+        ajouter_interaction("reponse", {"texte": selector})
+    except Exception as e:
+        ajouter_interaction("erreur", {"exception": str(e)})
+        raise
     print(selector)
 
 if __name__ == "__main__":
