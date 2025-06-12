@@ -1,0 +1,77 @@
+Ce projet fournit plusieurs outils pour extraire ou détecter automatiquement un sélecteur CSS pertinent à partir d'un extrait HTML. Les scripts vont de la génération simple d'un sélecteur à l'analyse d'une question en langage naturel grâce à un modèle DistilBERT.
+
+---
+
+## css_selector_generator.py
+
+Script principal pour générer des sélecteurs CSS à partir d'un HTML fourni (fichier ou STDIN). Il calcule un score pour chaque élément, choisit le meilleur candidat et propose plusieurs sélecteurs triés par heuristique.
+
+Structure :
+- **Constantes** : listes de balises et de classes considérées comme génériques ou pertinentes.
+- **`compute_score(tag)`** : attribue un score à un élément selon son type, ses classes, son id, etc.
+- **`choose_best_element(soup)`** : parcourt le document pour trouver l'élément ayant le meilleur score.
+- **`refine_candidate(el)`** : si le candidat contient un seul lien, renvoie ce lien.
+- **`build_selector(elem)`** : construit un sélecteur relativement court en remontant dans l'arborescence (id préféré, sinon balises/classes).
+- **`generate_selector_candidates(tag)`** : produit plusieurs sélecteurs possibles (avec contexte parent, classes, id...).
+- **`_score_candidate(sel)`** et **`display_choices(tag)`** : notent les sélecteurs générés, en affichent trois avec explication et met en avant le meilleur.
+- **`generate_selector(html)`** : API renvoyant simplement le meilleur sélecteur pour un extrait HTML.
+- **`main()`** : interface en ligne de commande.
+
+Ce module fournit la logique centrale de génération et est réutilisé par d'autres fichiers.
+
+---
+
+## cerveau.py
+
+"Cerveau" du projet : charge un classifieur zero‑shot DistilBERT afin de comprendre une question en langage naturel et d'en déduire la cible (lien, titre, image, etc.).
+
+- **`_get_classifier()`** : instancie le pipeline HuggingFace uniquement la première fois.
+- **`analyser_requete(question)`** : renvoie le label prédit correspondant à la question.
+
+Ce module est utilisé par `detecteur.py` pour orienter la recherche d'éléments.
+
+---
+
+## detecteur.py
+
+Script utilisant le "cerveau" pour traduire une question en langage naturel en sélecteur CSS.
+
+- **`_LABEL_TAGS`** : correspondance entre un label (lien, titre...) et les balises à parcourir.
+- **`trouver_elements(soup, label)`** : récupère les éléments HTML correspondant au label.
+- **`choisir_meilleur(elements)`** : sélectionne l'élément le plus significatif (texte le plus long).
+- **`generer_selecteur(html, question)`** : combine l'analyse de la question via `analyser_requete` et la génération de sélecteur via `build_selector` (importé de `css_selector_generator.py`).
+- **`main()`** : interface CLI acceptant une question et un fichier HTML (ou stdin).
+
+Il permet à un utilisateur non technique de demander par exemple « je veux le lien » et d'obtenir automatiquement un sélecteur correspondant.
+
+---
+
+## detect_selector.py
+
+Version plus poussée d'un générateur/détecteur de sélecteurs. Il applique de nombreuses heuristiques pour noter chaque élément et peut se concentrer sur certains types (liens, texte…).
+
+Principales fonctions :
+- **Constantes** similaires à `css_selector_generator.py` pour la pondération.
+- **`compute_score(tag)`** : score enrichi tenant compte de la profondeur, de la densité de texte, etc.
+- **`choose_best_elements(soup, mode, limit)`** : renvoie plusieurs candidats classés selon leur score, en évitant les doublons de sélecteurs.
+- **`refine_candidate(el)`**, **`has_good_id(tag)`**, **`build_selector(elem)`** : construction du sélecteur avec un nombre d'ancêtres limité.
+- **`describe_element(elem)`** : fournit une courte description humaine (lien principal, titre de section…).
+- **`prompt_input()`** et **`main()`** : gestion de la ligne de commande. Le mode `auto` tente de déterminer seul le type d'éléments à cibler.
+
+Ce script propose donc une approche interactive où l'utilisateur colle un extrait HTML et obtient les meilleurs sélecteurs accompagnés d'explications.
+
+---
+
+## web_interface.py
+
+Mini application Flask exposant la fonction `generate_selector` via une page Web.
+
+- Route `/` affichant un formulaire : l'utilisateur colle du HTML, et le serveur renvoie le sélecteur calculé par `css_selector_generator.py`.
+
+Elle constitue une interface graphique très simple pour tester la génération de sélecteurs dans un navigateur.
+
+---
+
+## Conclusion
+
+Les différents fichiers s'appuient tous sur le cœur `css_selector_generator.py` pour construire des sélecteurs CSS robustes. `detect_selector.py` fournit une ligne de commande plus riche et interactive, tandis que `web_interface.py` offre un accès web minimaliste. `cerveau.py` et `detecteur.py` ajoutent une couche d'intelligence artificielle permettant de passer d'une question humaine à un sélecteur ciblé. Ensemble, ces composants permettent d'expérimenter plusieurs façons d'obtenir automatiquement le meilleur sélecteur à partir d'un extrait HTML.
