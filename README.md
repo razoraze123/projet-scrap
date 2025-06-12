@@ -35,3 +35,15 @@ python web_interface.py
 ```
 
 Open `http://localhost:5000` in your browser, paste HTML into the textbox, and the tool will display the generated selector.
+
+## Intelligent Detection with DistilBERT
+
+The scripts `cerveau.py` and `detecteur.py` add a lightweight AI layer that
+understands natural language queries and produces a CSS selector automatically.
+
+```bash
+python detecteur.py "je veux le lien" page.html
+```
+
+`detecteur.py` calls `cerveau.py` which loads a DistilBERT zero-shot classifier
+to infer the target (link, title, image, etc.) before generating the selector.
