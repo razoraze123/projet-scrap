@@ -28,7 +28,7 @@ def main() -> None:
         enc["labels"] = [label2id[l] for l in batch["label"]]
         return enc
 
-    tokenized = dataset.map(tokenize, batched=True)
+    tokenized = dataset.map(tokenize, batched=True, remove_columns=["text", "label"])
 
     model = AutoModelForSequenceClassification.from_pretrained(
         "distilbert-base-multilingual-cased", num_labels=len(labels), id2label=id2label, label2id=label2id
