@@ -1,4 +1,3 @@
-import json
 from pathlib import Path
 
 from datasets import load_dataset
@@ -11,8 +10,10 @@ from transformers import (
 from sklearn.metrics import accuracy_score
 
 
-def main():
+def main() -> None:
     data_path = Path(__file__).resolve().parents[1] / "data" / "intents.jsonl"
+    if not data_path.is_file():
+        raise FileNotFoundError(f"Dataset not found at {data_path}")
     dataset = load_dataset("json", data_files=str(data_path))
     dataset = dataset["train"].train_test_split(test_size=0.2, seed=42)
 
