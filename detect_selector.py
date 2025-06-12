@@ -1,6 +1,7 @@
 import sys
 import re
 import argparse
+from typing import List, Tuple
 from bs4 import BeautifulSoup
 
 # Inline and structural tags used to weight candidate elements
@@ -52,6 +53,30 @@ def compute_score(tag) -> int:
     if name in STRUCTURAL_TAGS:
         score += 2
 
+    # Penalise very deep elements
+    depth = 0
+    parent = tag.parent
+    while parent and parent.name != '[document]':
+        depth += 1
+        parent = parent.parent
+    score -= depth
+
+    # Favour elements that contain a fair amount of text
+    text_length = len(tag.get_text(strip=True))
+    density = text_length / (len(tag.find_all(True)) + 1)
+    if text_length > 40:
+        score += 2
+    elif text_length > 15:
+        score += 1
+    if density > 30:
+        score += 2
+    elif density > 10:
+        score += 1
+
+    # Semantic headings have extra weight
+    if name.startswith('h') and len(name) == 2 and name[1].isdigit():
+        score += 2
+
     tag_id = tag.get("id")
     if tag_id:
         if not is_dynamic_id(tag_id):
@@ -71,16 +96,31 @@ def compute_score(tag) -> int:
                 score += 1
     return score
 
-def choose_best_element(soup: BeautifulSoup):
-    """Return the most promising element in the snippet."""
-    best = None
-    best_score = float('-inf')
+def choose_best_elements(soup: BeautifulSoup, mode: str = 'all', limit: int = 3):
+    """Return a list of promising elements in the snippet."""
+    candidates: List[Tuple[int, any]] = []
     for el in soup.find_all(True):
+        if mode == 'links' and el.name != 'a':
+            continue
+        if mode == 'text' and el.name not in {
+            'p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'
+        }:
+            continue
         sc = compute_score(el)
-        if sc > best_score:
-            best_score = sc
-            best = el
-    return best
+        candidates.append((sc, el))
+    candidates.sort(key=lambda x: x[0], reverse=True)
+    result = []
+    selectors_seen = set()
+    for score, el in candidates:
+        candidate = refine_candidate(el)
+        sel = build_selector(candidate)
+        if sel in selectors_seen:
+            continue
+        selectors_seen.add(sel)
+        result.append(candidate)
+        if len(result) >= limit:
+            break
+    return result
 
 def refine_candidate(el):
     """If the element contains a single anchor, return that anchor."""
@@ -93,11 +133,25 @@ def has_good_id(tag) -> bool:
     tag_id = tag.get("id")
     return tag_id is not None and not is_dynamic_id(tag_id)
 
+def describe_element(elem: 'BeautifulSoup') -> str:
+    """Return a short human explanation for what the element represents."""
+    name = elem.name.lower()
+    if name == 'a':
+        return "Lien principal"
+    if name in {'h1', 'h2', 'h3', 'h4', 'h5', 'h6'}:
+        return "Titre de section"
+    if name in {'ul', 'ol'}:
+        return "Liste d'\u00e9l\u00e9ments"
+    if name == 'p':
+        return "Paragraphe de texte"
+    return f"\u00c9l\u00e9ment {name}"
+
 def build_selector(elem) -> str:
     """Build a short yet robust CSS selector for the element."""
     parts = []
     current = elem
     first = True
+    max_levels = 4
     while current and current.name != '[document]':
         if has_good_id(current):
             # Prefer a stable id whenever possible
@@ -120,6 +174,8 @@ def build_selector(elem) -> str:
                     part = current.name + ''.join(f'.{c}' for c in classes)
                 parts.append(part)
         current = current.parent
+        if len(parts) >= max_levels:
+            break
     parts.reverse()
     return ' '.join(parts)
 
@@ -137,6 +193,12 @@ def main():
     parser.add_argument(
         "file", nargs="?", help="Optional HTML file. If omitted, read from stdin"
     )
+    parser.add_argument(
+        "--mode",
+        choices=["auto", "links", "text", "all"],
+        default="auto",
+        help="Type d'\u00e9l\u00e9ments \u00e0 cibler"
+    )
     args = parser.parse_args()
 
     if args.file:
@@ -146,13 +208,17 @@ def main():
         html = prompt_input()
 
     soup = BeautifulSoup(html, 'html.parser')
-    target = choose_best_element(soup)
-    if target:
-        target = refine_candidate(target)
-    if target is None:
+    mode = args.mode
+    search_mode = 'all' if mode == 'auto' else mode
+    targets = choose_best_elements(soup, search_mode)
+    if not targets:
         return
-    selector = build_selector(target)
-    print(f"\u2705 S\u00e9lecteur g\u00e9n\u00e9r\u00e9 : {selector}")
+    for target in targets:
+        target = refine_candidate(target)
+        selector = build_selector(target)
+        explanation = describe_element(target)
+        print(f"\u2705 S\u00e9lecteur g\u00e9n\u00e9r\u00e9 : {selector}")
+        print(f"\U0001F9E0 Explication : {explanation}\n")
 
 if __name__ == '__main__':
     main()
