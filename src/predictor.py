@@ -1,9 +1,13 @@
+"""Utilities for loading the trained intent classifier and predicting labels."""
+
 from pathlib import Path
 
 import torch
 from transformers import AutoModelForSequenceClassification, DistilBertTokenizerFast
 
-MODEL_DIR = Path(__file__).resolve().parents[1] / "model" / "trained_model"
+MODEL_DIR = Path(__file__).resolve().parent.parent / "model" / "trained_model"
+if not MODEL_DIR.exists():
+    raise FileNotFoundError(f"Trained model directory not found: {MODEL_DIR}")
 
 tokenizer = DistilBertTokenizerFast.from_pretrained(MODEL_DIR)
 model = AutoModelForSequenceClassification.from_pretrained(MODEL_DIR)
@@ -13,6 +17,9 @@ id2label = {int(k): v for k, v in model.config.id2label.items()}
 
 
 def predict_intent(text: str) -> str:
+    text = text.strip()
+    if not text:
+        raise ValueError("Input text is empty")
     inputs = tokenizer(text, return_tensors="pt", truncation=True, padding=True)
     with torch.no_grad():
         outputs = model(**inputs)
