@@ -1,0 +1,180 @@
+{"text": "Quel est le titre ?", "label": "titre"}
+{"text": "Donne-moi le titre", "label": "titre"}
+{"text": "Je veux voir le titre", "label": "titre"}
+{"text": "Affiche le titre", "label": "titre"}
+{"text": "Montre le titre de la page", "label": "titre"}
+{"text": "C'est quoi le titre ?", "label": "titre"}
+{"text": "Récupère le titre", "label": "titre"}
+{"text": "Peux-tu me donner le titre", "label": "titre"}
+{"text": "Je cherche le titre", "label": "titre"}
+{"text": "Quel est le nom de l'article ?", "label": "titre"}
+{"text": "Titre de la page ?", "label": "titre"}
+{"text": "Obtenir le titre", "label": "titre"}
+{"text": "Où est le titre", "label": "titre"}
+{"text": "Je veux juste le titre", "label": "titre"}
+{"text": "Montre-moi le titre exact", "label": "titre"}
+{"text": "Affichage du titre s'il te plaît", "label": "titre"}
+{"text": "Trouve le titre", "label": "titre"}
+{"text": "Quel est le titre affiché ?", "label": "titre"}
+{"text": "Titre principal ?", "label": "titre"}
+{"text": "Le titre m'intéresse", "label": "titre"}
+{"text": "Je souhaite connaître le titre", "label": "titre"}
+{"text": "Titre ?", "label": "titre"}
+{"text": "Fournis-moi le titre", "label": "titre"}
+{"text": "J'ai besoin du titre", "label": "titre"}
+{"text": "Titre de cet élément", "label": "titre"}
+{"text": "Quel titre est utilisé ?", "label": "titre"}
+{"text": "Montre le titre principal", "label": "titre"}
+{"text": "Où peut-on lire le titre ?", "label": "titre"}
+{"text": "Titre recherché", "label": "titre"}
+{"text": "Je veux savoir le titre", "label": "titre"}
+{"text": "Clique sur le bouton", "label": "bouton"}
+{"text": "Où se trouve le bouton ?", "label": "bouton"}
+{"text": "Montre-moi le bouton", "label": "bouton"}
+{"text": "Je voudrais le bouton", "label": "bouton"}
+{"text": "Quel bouton dois-je utiliser ?", "label": "bouton"}
+{"text": "Afficher le bouton principal", "label": "bouton"}
+{"text": "Je cherche le bouton d'action", "label": "bouton"}
+{"text": "Trouve le bouton", "label": "bouton"}
+{"text": "Y a-t-il un bouton ?", "label": "bouton"}
+{"text": "Bouton d'envoi ?", "label": "bouton"}
+{"text": "Je veux appuyer sur le bouton", "label": "bouton"}
+{"text": "Le bouton m'intéresse", "label": "bouton"}
+{"text": "Je souhaite voir le bouton", "label": "bouton"}
+{"text": "Quel est le bouton cliquable ?", "label": "bouton"}
+{"text": "Donne-moi le bouton", "label": "bouton"}
+{"text": "Montre le bouton de confirmation", "label": "bouton"}
+{"text": "Où est le bouton envoyer", "label": "bouton"}
+{"text": "Bouton disponible ?", "label": "bouton"}
+{"text": "Je veux le bouton de recherche", "label": "bouton"}
+{"text": "Trouver le bouton s'il te plaît", "label": "bouton"}
+{"text": "Est-ce qu'il y a un bouton ?", "label": "bouton"}
+{"text": "Bouton principal à afficher", "label": "bouton"}
+{"text": "Localise le bouton", "label": "bouton"}
+{"text": "Je souhaite le bouton principal", "label": "bouton"}
+{"text": "Quel bouton existe ?", "label": "bouton"}
+{"text": "Affiche-moi simplement le bouton", "label": "bouton"}
+{"text": "Je voudrais appuyer sur le bouton principal", "label": "bouton"}
+{"text": "Bouton principal ?", "label": "bouton"}
+{"text": "Peux-tu donner le bouton ?", "label": "bouton"}
+{"text": "Je veux cliquer sur le bouton", "label": "bouton"}
+{"text": "Montre-moi l’image", "label": "image"}
+{"text": "Je veux voir l'image", "label": "image"}
+{"text": "Où est l'image ?", "label": "image"}
+{"text": "Affiche l'image principale", "label": "image"}
+{"text": "Je cherche une image", "label": "image"}
+{"text": "Image de l'article ?", "label": "image"}
+{"text": "Donne-moi l'image", "label": "image"}
+{"text": "Je souhaite l'image", "label": "image"}
+{"text": "Trouve l'image", "label": "image"}
+{"text": "Affichage de l'image ?", "label": "image"}
+{"text": "Peux-tu me montrer l'image", "label": "image"}
+{"text": "Image disponible ?", "label": "image"}
+{"text": "Je veux l'image de couverture", "label": "image"}
+{"text": "Localise l'image", "label": "image"}
+{"text": "Montre l'image si possible", "label": "image"}
+{"text": "Je demande l'image", "label": "image"}
+{"text": "Y a-t-il une image ?", "label": "image"}
+{"text": "Je voudrais l'image affichée", "label": "image"}
+{"text": "Quel est l'image principale ?", "label": "image"}
+{"text": "Image mise en avant ?", "label": "image"}
+{"text": "Où se trouve l'image ?", "label": "image"}
+{"text": "Image désirée", "label": "image"}
+{"text": "Afficher l'image maintenant", "label": "image"}
+{"text": "Je recherche l'image", "label": "image"}
+{"text": "Image de la page ?", "label": "image"}
+{"text": "Montre moi juste l'image", "label": "image"}
+{"text": "Donne l'image en question", "label": "image"}
+{"text": "L'image m'intéresse", "label": "image"}
+{"text": "Peux-tu localiser l'image ?", "label": "image"}
+{"text": "Je veux uniquement l'image", "label": "image"}
+{"text": "Combien ça coûte ?", "label": "prix"}
+{"text": "Quel est le prix ?", "label": "prix"}
+{"text": "Je veux connaître le prix", "label": "prix"}
+{"text": "Affiche le prix", "label": "prix"}
+{"text": "Montre-moi le prix", "label": "prix"}
+{"text": "Prix actuel ?", "label": "prix"}
+{"text": "Donne-moi le prix", "label": "prix"}
+{"text": "Quel est le tarif ?", "label": "prix"}
+{"text": "Je cherche le prix", "label": "prix"}
+{"text": "Le prix de l'article ?", "label": "prix"}
+{"text": "Peux-tu indiquer le prix", "label": "prix"}
+{"text": "Prix demandé", "label": "prix"}
+{"text": "Je souhaite le prix exact", "label": "prix"}
+{"text": "Affichage du prix", "label": "prix"}
+{"text": "Combien vaut cet article", "label": "prix"}
+{"text": "Montre le prix s'il te plaît", "label": "prix"}
+{"text": "Où est écrit le prix", "label": "prix"}
+{"text": "Je voudrais voir le prix", "label": "prix"}
+{"text": "Quel prix est affiché ?", "label": "prix"}
+{"text": "Fournis le prix", "label": "prix"}
+{"text": "Le prix m'intéresse", "label": "prix"}
+{"text": "Je veux juste le prix", "label": "prix"}
+{"text": "Tarif demandé ?", "label": "prix"}
+{"text": "Montre le prix final", "label": "prix"}
+{"text": "Prix de vente ?", "label": "prix"}
+{"text": "Où peut-on lire le prix", "label": "prix"}
+{"text": "Affiche-moi le prix exact", "label": "prix"}
+{"text": "Je cherche simplement le prix", "label": "prix"}
+{"text": "Quel est le montant ?", "label": "prix"}
+{"text": "Donne le prix", "label": "prix"}
+{"text": "Je veux le lien", "label": "lien"}
+{"text": "Où est le lien ?", "label": "lien"}
+{"text": "Montre-moi le lien", "label": "lien"}
+{"text": "Donne-moi le lien", "label": "lien"}
+{"text": "Lien disponible ?", "label": "lien"}
+{"text": "Je souhaite obtenir le lien", "label": "lien"}
+{"text": "Quel est le lien ?", "label": "lien"}
+{"text": "Fournis le lien", "label": "lien"}
+{"text": "Je cherche le lien principal", "label": "lien"}
+{"text": "Affiche le lien", "label": "lien"}
+{"text": "Où puis-je cliquer ?", "label": "lien"}
+{"text": "Je souhaite le lien de la page", "label": "lien"}
+{"text": "Montre le lien s'il te plaît", "label": "lien"}
+{"text": "Lien vers le site ?", "label": "lien"}
+{"text": "Je voudrais le lien d'accès", "label": "lien"}
+{"text": "Lien affiché ?", "label": "lien"}
+{"text": "Localise le lien", "label": "lien"}
+{"text": "Je veux récupérer le lien", "label": "lien"}
+{"text": "Quel lien utiliser ?", "label": "lien"}
+{"text": "Le lien m'intéresse", "label": "lien"}
+{"text": "Affichage du lien ?", "label": "lien"}
+{"text": "Peux-tu donner le lien", "label": "lien"}
+{"text": "Je cherche juste le lien", "label": "lien"}
+{"text": "Lien cliquable ?", "label": "lien"}
+{"text": "Où se trouve le lien ?", "label": "lien"}
+{"text": "Je veux le lien principal", "label": "lien"}
+{"text": "Montre le lien de téléchargement", "label": "lien"}
+{"text": "Je voudrais simplement le lien", "label": "lien"}
+{"text": "Fournis-moi le lien exact", "label": "lien"}
+{"text": "Quel est le lien final ?", "label": "lien"}
+{"text": "Donne-moi la description", "label": "description"}
+{"text": "Quelle est la description ?", "label": "description"}
+{"text": "Je veux voir la description", "label": "description"}
+{"text": "Affiche la description", "label": "description"}
+{"text": "Montre la description de l'article", "label": "description"}
+{"text": "Description disponible ?", "label": "description"}
+{"text": "Je souhaite la description", "label": "description"}
+{"text": "Où est la description ?", "label": "description"}
+{"text": "Je cherche la description", "label": "description"}
+{"text": "Peux-tu indiquer la description", "label": "description"}
+{"text": "Affichage de la description", "label": "description"}
+{"text": "Je voudrais la description", "label": "description"}
+{"text": "Description détaillée ?", "label": "description"}
+{"text": "Fournis la description", "label": "description"}
+{"text": "Montre-moi la description complète", "label": "description"}
+{"text": "La description m'intéresse", "label": "description"}
+{"text": "Je veux obtenir la description", "label": "description"}
+{"text": "Où peut-on lire la description", "label": "description"}
+{"text": "Je souhaite voir la description complète", "label": "description"}
+{"text": "Description de cet élément ?", "label": "description"}
+{"text": "Quelle est la description exacte ?", "label": "description"}
+{"text": "Donne la description s'il te plaît", "label": "description"}
+{"text": "Je cherche simplement la description", "label": "description"}
+{"text": "Affiche la description complète", "label": "description"}
+{"text": "Je veux juste la description", "label": "description"}
+{"text": "Peux-tu donner la description ?", "label": "description"}
+{"text": "La description est où ?", "label": "description"}
+{"text": "Montre la description précise", "label": "description"}
+{"text": "Je désire la description", "label": "description"}
+{"text": "Quelle description est fournie ?", "label": "description"}

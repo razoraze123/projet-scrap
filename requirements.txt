@@ -1,4 +1,7 @@
-torch
 transformers
+datasets
+torch
+scikit-learn
+tk
 beautifulsoup4
 flask
