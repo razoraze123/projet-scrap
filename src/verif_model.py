@@ -1,5 +1,9 @@
+"""Utility script to verify that a trained model is present and loadable."""
+
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
+
+MODEL_PATH = Path(__file__).resolve().parents[1] / "model" / "trained_model"
 
 REQUIRED_FILES = [
     "config.json",
@@ -12,7 +16,7 @@ REQUIRED_FILES = [
 
 def main() -> None:
     repo_root = Path(__file__).resolve().parents[1]
-    path = repo_root / "model" / "trained_model"
+    path = MODEL_PATH
     missing = []
     for fname in REQUIRED_FILES:
         file_path = path / fname
