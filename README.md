@@ -1,49 +1,37 @@
-# CSS Selector Generator
+# Assistant HTML IA
 
-This project provides a command-line tool that analyses an HTML snippet and now proposes several CSS selectors ranked by relevance. A small web interface is also included for interactive use.
+Ce projet propose un petit assistant capable de comprendre des requêtes en langage naturel ("Quel est le titre ?", "Montre-moi l'image", etc.) et d'indiquer quel élément HTML est visé. Un modèle DistilBERT est entraîné localement pour classer les demandes parmi six labels : `titre`, `bouton`, `image`, `prix`, `lien`, `description`.
 
-## Requirements
+## Installation
 
-* Python 3
-* [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
-* [Flask](https://flask.palletsprojects.com/)
-
-Install the dependencies with:
+Installez les dépendances :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Command Line Usage
+## Entraîner le modèle
 
-Generate selector suggestions from a file:
-
-```bash
-python css_selector_generator.py path/to/file.html
-```
-
-If no file is provided, HTML is read from standard input. The script then
-prints several CSS selectors with short explanations and highlights the
-recommended one.
-
-## Web Interface
-
-Start the Flask app to use a simple web interface:
+Le dataset se trouve dans `data/intents.jsonl`. Lancez l'entraînement (CPU) :
 
 ```bash
-python web_interface.py
+python src/train_classifier.py
 ```
 
-Open `http://localhost:5000` in your browser, paste HTML into the textbox, and the tool will display the generated selector.
+Le modèle et le tokenizer seront sauvegardés dans `model/trained_model/`.
 
-## Intelligent Detection with DistilBERT
-
-The scripts `cerveau.py` and `detecteur.py` add a lightweight AI layer that
-understands natural language queries and produces a CSS selector automatically.
+## Tester en ligne de commande
 
 ```bash
-python detecteur.py "je veux le lien" page.html
+python src/predictor.py "Montre-moi le prix"
 ```
 
-`detecteur.py` calls `cerveau.py` which loads a DistilBERT zero-shot classifier
-to infer the target (link, title, image, etc.) before generating the selector.
+## Interface graphique
+
+Une interface minimaliste est disponible :
+
+```bash
+python src/interface_gui.py
+```
+
+Entrez une question et cliquez sur **Prédire** : le label prédit s'affichera.
