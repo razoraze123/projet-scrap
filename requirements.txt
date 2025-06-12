@@ -1,2 +1,4 @@
+torch
+transformers
 beautifulsoup4
 flask
