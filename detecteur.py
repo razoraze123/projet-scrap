@@ -1,7 +1,7 @@
 import sys
 import argparse
 from bs4 import BeautifulSoup
-from cerveau import analyser_requete
+from intelligence import analyser_question
 from css_selector_generator import build_selector
 
 
@@ -25,7 +25,7 @@ def choisir_meilleur(elements):
     return max(elements, key=lambda el: len(el.get_text(strip=True)))
 
 def generer_selecteur(html: str, question: str) -> str:
-    label = analyser_requete(question)
+    label = analyser_question(question)
     soup = BeautifulSoup(html, "html.parser")
     elements = trouver_elements(soup, label)
     cible = choisir_meilleur(elements)
