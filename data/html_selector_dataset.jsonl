@@ -1,0 +1,600 @@
+{"question": "lien vers la page", "html": "<a href='/path0' class='product-card highlight'>voir</a>", "label": "a.product-card.highlight"}
+{"question": "quel est le lien ?", "html": "<a href='/path1' class='content highlight'>voir</a>", "label": "a.content.highlight"}
+{"question": "bouton d'achat", "html": "<button class='price-label primary'>Ok</button>", "label": "button.price-label.primary"}
+{"question": "titre du produit", "html": "<ul class='price-label'><li class='prod'>Item 3</li></ul>", "label": "ul.price-label li.prod"}
+{"question": "voir l'image", "html": "<figure class='item'><img src='img4.jpg' class='secondary' alt='Img 4'></figure>", "label": "figure.item img.secondary"}
+{"question": "image du produit", "html": "<figure class='title'><img src='img5.jpg' class='desc' alt='Img 5'></figure>", "label": "figure.title img.desc"}
+{"question": "prix ?", "html": "<p class='prod'>Prix: <span class='content'>143€</span></p>", "label": "p.prod span.content"}
+{"question": "lien du produit", "html": "<div class='prod'><a href='/item7' class='product-card'>Lien 7</a></div>", "label": "div.prod a.product-card"}
+{"question": "texte descriptif", "html": "<section class='secondary'><span class='secondary'>Texte 8</span></section>", "label": "section.secondary span.secondary"}
+{"question": "où est la description ?", "html": "<div class='link'><p class='title'>Description 9</p></div>", "label": "div.link p.title"}
+{"question": "quel est le prix ?", "html": "<p class='link'>Prix: <span class='btn'>124€</span></p>", "label": "p.link span.btn"}
+{"question": "où est l'image ?", "html": "<figure class='title'><img src='img11.jpg' class='prod' alt='Img 11'></figure>", "label": "figure.title img.prod"}
+{"question": "bouton d'achat", "html": "<button class='item small'>Ok</button>", "label": "button.item.small"}
+{"question": "je voudrais le prix", "html": "<p class='main'>Prix: <span class='prod'>83€</span></p>", "label": "p.main span.prod"}
+{"question": "montre-moi la photo", "html": "<figure class='main'><img src='img14.jpg' class='desc' alt='Img 14'></figure>", "label": "figure.main img.desc"}
+{"question": "où est le titre ?", "html": "<h3 class='btn'><a href='/p15' class='link'>Produit 15</a></h3>", "label": "h3.btn a.link"}
+{"question": "montre-moi le titre", "html": "<div class='price-label'><h1 class='content'>Titre 16</h1></div>", "label": "div.price-label h1.content"}
+{"question": "afficher le bouton", "html": "<div class='product-card'><button class='item'>Acheter 17</button></div>", "label": "div.product-card button.item"}
+{"question": "montre la description", "html": "<section class='prod'><span class='price-label'>Texte 18</span></section>", "label": "section.prod span.price-label"}
+{"question": "je veux le titre", "html": "<div class='main'><h1 class='desc'>Titre 19</h1></div>", "label": "div.main h1.desc"}
+{"question": "où est l'image ?", "html": "<img class='secondary highlight' src='i20.png'>", "label": "img.secondary.highlight"}
+{"question": "prix ?", "html": "<span class='content small'>171 EUR</span>", "label": "span.content.small"}
+{"question": "prix du produit", "html": "<p class='link'>Prix: <span class='product-card'>39€</span></p>", "label": "p.link span.product-card"}
+{"question": "quel est le prix ?", "html": "<p class='title'>Prix: <span class='btn'>119€</span></p>", "label": "p.title span.btn"}
+{"question": "image du produit", "html": "<figure class='btn'><img src='img24.jpg' class='link' alt='Img 24'></figure>", "label": "figure.btn img.link"}
+{"question": "où est le bouton ?", "html": "<button class='secondary active'>Ok</button>", "label": "button.secondary.active"}
+{"question": "je veux le titre", "html": "<div class='link'><h1 class='main'>Titre 26</h1></div>", "label": "div.link h1.main"}
+{"question": "je veux l'image", "html": "<figure class='title'><img src='img27.jpg' class='item' alt='Img 27'></figure>", "label": "figure.title img.item"}
+{"question": "prix du produit", "html": "<p class='btn'>Prix: <span class='item'>63€</span></p>", "label": "p.btn span.item"}
+{"question": "je veux le titre", "html": "<ul class='product-card'><li class='secondary'>Item 29</li></ul>", "label": "ul.product-card li.secondary"}
+{"question": "quel est le prix ?", "html": "<span class='price-label active'>66 EUR</span>", "label": "span.price-label.active"}
+{"question": "quel est le titre ?", "html": "<div class='price-label'><h1 class='title'>Titre 31</h1></div>", "label": "div.price-label h1.title"}
+{"question": "trouve le bouton", "html": "<button class='product-card small'>Ok</button>", "label": "button.product-card.small"}
+{"question": "lien vers la page", "html": "<a href='/path33' class='price-label highlight'>voir</a>", "label": "a.price-label.highlight"}
+{"question": "prix du produit", "html": "<span class='secondary primary'>24 EUR</span>", "label": "span.secondary.primary"}
+{"question": "où est le bouton ?", "html": "<div class='btn'><button class='title'>Acheter 35</button></div>", "label": "div.btn button.title"}
+{"question": "je voudrais le prix", "html": "<span class='secondary primary'>13 EUR</span>", "label": "span.secondary.primary"}
+{"question": "titre du produit", "html": "<div class='desc'><h1 class='main'>Titre 37</h1></div>", "label": "div.desc h1.main"}
+{"question": "donne-moi le lien", "html": "<a href='/path38' class='price-label primary'>voir</a>", "label": "a.price-label.primary"}
+{"question": "où est l'image ?", "html": "<img class='title active' src='i39.png'>", "label": "img.title.active"}
+{"question": "je veux le bouton", "html": "<div class='link'><button class='content'>Acheter 40</button></div>", "label": "div.link button.content"}
+{"question": "titre du produit", "html": "<div class='title'><h1 class='main'>Titre 41</h1></div>", "label": "div.title h1.main"}
+{"question": "quel est le lien ?", "html": "<a href='/path42' class='secondary active'>voir</a>", "label": "a.secondary.active"}
+{"question": "texte descriptif", "html": "<section class='title'><span class='btn'>Texte 43</span></section>", "label": "section.title span.btn"}
+{"question": "lien du produit", "html": "<a href='/path44' class='main large'>voir</a>", "label": "a.main.large"}
+{"question": "texte descriptif", "html": "<section class='main'><span class='desc'>Texte 45</span></section>", "label": "section.main span.desc"}
+{"question": "affiche l'image", "html": "<figure class='price-label'><img src='img46.jpg' class='btn' alt='Img 46'></figure>", "label": "figure.price-label img.btn"}
+{"question": "je veux le bouton", "html": "<button class='product-card active'>Ok</button>", "label": "button.product-card.active"}
+{"question": "où est le titre ?", "html": "<h3 class='content'><a href='/p48' class='product-card'>Produit 48</a></h3>", "label": "h3.content a.product-card"}
+{"question": "je veux le titre", "html": "<div class='item'><h1 class='btn'>Titre 49</h1></div>", "label": "div.item h1.btn"}
+{"question": "quelle est la description ?", "html": "<div class='product-card'><p class='link'>Description 50</p></div>", "label": "div.product-card p.link"}
+{"question": "quel est le titre ?", "html": "<div class='prod'><h1 class='main'>Titre 51</h1></div>", "label": "div.prod h1.main"}
+{"question": "prix du produit", "html": "<span class='link highlight'>81 EUR</span>", "label": "span.link.highlight"}
+{"question": "où est le bouton ?", "html": "<div class='item'><button class='content'>Acheter 53</button></div>", "label": "div.item button.content"}
+{"question": "où est le lien ?", "html": "<div class='price-label'><a href='/item54' class='content'>Lien 54</a></div>", "label": "div.price-label a.content"}
+{"question": "montre-moi le titre", "html": "<div class='prod'><h1 class='secondary'>Titre 55</h1></div>", "label": "div.prod h1.secondary"}
+{"question": "titre du produit", "html": "<h3 class='product-card'><a href='/p56' class='product-card'>Produit 56</a></h3>", "label": "h3.product-card a.product-card"}
+{"question": "trouve le bouton", "html": "<button class='title small'>Ok</button>", "label": "button.title.small"}
+{"question": "texte descriptif", "html": "<section class='main'><span class='secondary'>Texte 58</span></section>", "label": "section.main span.secondary"}
+{"question": "montre-moi le titre", "html": "<div class='desc'><h1 class='title'>Titre 59</h1></div>", "label": "div.desc h1.title"}
+{"question": "où est le lien ?", "html": "<a href='/path60' class='price-label active'>voir</a>", "label": "a.price-label.active"}
+{"question": "quel est le titre ?", "html": "<h3 class='title'><a href='/p61' class='title'>Produit 61</a></h3>", "label": "h3.title a.title"}
+{"question": "montre la description", "html": "<div class='main'><p class='product-card'>Description 62</p></div>", "label": "div.main p.product-card"}
+{"question": "bouton d'achat", "html": "<div class='main'><button class='price-label'>Acheter 63</button></div>", "label": "div.main button.price-label"}
+{"question": "clique sur le bouton", "html": "<div class='price-label'><button class='item'>Acheter 64</button></div>", "label": "div.price-label button.item"}
+{"question": "je veux le lien", "html": "<div class='price-label'><a href='/item65' class='btn'>Lien 65</a></div>", "label": "div.price-label a.btn"}
+{"question": "quel est le titre ?", "html": "<h3 class='desc'><a href='/p66' class='title'>Produit 66</a></h3>", "label": "h3.desc a.title"}
+{"question": "photo", "html": "<figure class='prod'><img src='img67.jpg' class='content' alt='Img 67'></figure>", "label": "figure.prod img.content"}
+{"question": "je veux le titre", "html": "<ul class='title'><li class='item'>Item 68</li></ul>", "label": "ul.title li.item"}
+{"question": "où est le lien ?", "html": "<a href='/path69' class='price-label highlight'>voir</a>", "label": "a.price-label.highlight"}
+{"question": "où est le bouton ?", "html": "<div class='secondary'><button class='main'>Acheter 70</button></div>", "label": "div.secondary button.main"}
+{"question": "affiche l'image", "html": "<figure class='item'><img src='img71.jpg' class='link' alt='Img 71'></figure>", "label": "figure.item img.link"}
+{"question": "montre-moi le lien", "html": "<div class='item'><a href='/item72' class='desc'>Lien 72</a></div>", "label": "div.item a.desc"}
+{"question": "je veux l'image", "html": "<img class='main primary' src='i73.png'>", "label": "img.main.primary"}
+{"question": "texte descriptif", "html": "<div class='link'><p class='price-label'>Description 74</p></div>", "label": "div.link p.price-label"}
+{"question": "quel est le prix ?", "html": "<p class='title'>Prix: <span class='item'>189€</span></p>", "label": "p.title span.item"}
+{"question": "afficher le bouton", "html": "<button class='secondary primary'>Ok</button>", "label": "button.secondary.primary"}
+{"question": "où est le lien ?", "html": "<a href='/path77' class='link active'>voir</a>", "label": "a.link.active"}
+{"question": "voir l'image", "html": "<figure class='link'><img src='img78.jpg' class='content' alt='Img 78'></figure>", "label": "figure.link img.content"}
+{"question": "bouton d'achat", "html": "<div class='item'><button class='main'>Acheter 79</button></div>", "label": "div.item button.main"}
+{"question": "lien vers la page", "html": "<a href='/path80' class='secondary large'>voir</a>", "label": "a.secondary.large"}
+{"question": "montre-moi le titre", "html": "<div class='title'><h1 class='content'>Titre 81</h1></div>", "label": "div.title h1.content"}
+{"question": "trouve le bouton", "html": "<button class='link active'>Ok</button>", "label": "button.link.active"}
+{"question": "montre la description", "html": "<section class='title'><span class='title'>Texte 83</span></section>", "label": "section.title span.title"}
+{"question": "titre du produit", "html": "<h3 class='main'><a href='/p84' class='btn'>Produit 84</a></h3>", "label": "h3.main a.btn"}
+{"question": "quelle est la description ?", "html": "<section class='content'><span class='item'>Texte 85</span></section>", "label": "section.content span.item"}
+{"question": "je veux l'image", "html": "<figure class='link'><img src='img86.jpg' class='btn' alt='Img 86'></figure>", "label": "figure.link img.btn"}
+{"question": "je veux le titre", "html": "<ul class='content'><li class='title'>Item 87</li></ul>", "label": "ul.content li.title"}
+{"question": "quelle est la description ?", "html": "<div class='prod'><p class='desc'>Description 88</p></div>", "label": "div.prod p.desc"}
+{"question": "quel est le prix ?", "html": "<span class='secondary small'>163 EUR</span>", "label": "span.secondary.small"}
+{"question": "où est la description ?", "html": "<section class='desc'><span class='link'>Texte 90</span></section>", "label": "section.desc span.link"}
+{"question": "quel est le lien ?", "html": "<a href='/path91' class='desc small'>voir</a>", "label": "a.desc.small"}
+{"question": "montre-moi le titre", "html": "<ul class='product-card'><li class='secondary'>Item 92</li></ul>", "label": "ul.product-card li.secondary"}
+{"question": "quel est le titre ?", "html": "<h3 class='prod'><a href='/p93' class='main'>Produit 93</a></h3>", "label": "h3.prod a.main"}
+{"question": "photo", "html": "<img class='price-label large' src='i94.png'>", "label": "img.price-label.large"}
+{"question": "montre-moi le lien", "html": "<a href='/path95' class='btn primary'>voir</a>", "label": "a.btn.primary"}
+{"question": "texte descriptif", "html": "<section class='title'><span class='product-card'>Texte 96</span></section>", "label": "section.title span.product-card"}
+{"question": "trouve le bouton", "html": "<div class='content'><button class='main'>Acheter 97</button></div>", "label": "div.content button.main"}
+{"question": "afficher le bouton", "html": "<div class='title'><button class='desc'>Acheter 98</button></div>", "label": "div.title button.desc"}
+{"question": "où est le lien ?", "html": "<a href='/path99' class='product-card active'>voir</a>", "label": "a.product-card.active"}
+{"question": "je voudrais l'url", "html": "<div class='product-card'><a href='/item100' class='main'>Lien 100</a></div>", "label": "div.product-card a.main"}
+{"question": "affiche l'image", "html": "<figure class='prod'><img src='img101.jpg' class='secondary' alt='Img 101'></figure>", "label": "figure.prod img.secondary"}
+{"question": "je veux le titre", "html": "<ul class='content'><li class='item'>Item 102</li></ul>", "label": "ul.content li.item"}
+{"question": "prix du produit", "html": "<span class='title active'>184 EUR</span>", "label": "span.title.active"}
+{"question": "prix du produit", "html": "<span class='btn large'>85 EUR</span>", "label": "span.btn.large"}
+{"question": "je veux le titre", "html": "<div class='item'><h1 class='prod'>Titre 105</h1></div>", "label": "div.item h1.prod"}
+{"question": "photo", "html": "<img class='link large' src='i106.png'>", "label": "img.link.large"}
+{"question": "titre du produit", "html": "<div class='item'><h1 class='product-card'>Titre 107</h1></div>", "label": "div.item h1.product-card"}
+{"question": "quel est le lien ?", "html": "<div class='prod'><a href='/item108' class='secondary'>Lien 108</a></div>", "label": "div.prod a.secondary"}
+{"question": "affiche le prix", "html": "<p class='item'>Prix: <span class='secondary'>188€</span></p>", "label": "p.item span.secondary"}
+{"question": "lien du produit", "html": "<a href='/path110' class='price-label active'>voir</a>", "label": "a.price-label.active"}
+{"question": "quel est le prix ?", "html": "<span class='item active'>116 EUR</span>", "label": "span.item.active"}
+{"question": "affiche l'image", "html": "<figure class='desc'><img src='img112.jpg' class='btn' alt='Img 112'></figure>", "label": "figure.desc img.btn"}
+{"question": "titre du produit", "html": "<div class='desc'><h1 class='product-card'>Titre 113</h1></div>", "label": "div.desc h1.product-card"}
+{"question": "image du produit", "html": "<figure class='title'><img src='img114.jpg' class='item' alt='Img 114'></figure>", "label": "figure.title img.item"}
+{"question": "quel est le lien ?", "html": "<div class='title'><a href='/item115' class='title'>Lien 115</a></div>", "label": "div.title a.title"}
+{"question": "quelle est la description ?", "html": "<div class='item'><p class='main'>Description 116</p></div>", "label": "div.item p.main"}
+{"question": "prix ?", "html": "<p class='secondary'>Prix: <span class='secondary'>11€</span></p>", "label": "p.secondary span.secondary"}
+{"question": "montre la description", "html": "<div class='product-card'><p class='main'>Description 118</p></div>", "label": "div.product-card p.main"}
+{"question": "où est l'image ?", "html": "<img class='content highlight' src='i119.png'>", "label": "img.content.highlight"}
+{"question": "afficher le bouton", "html": "<div class='product-card'><button class='link'>Acheter 120</button></div>", "label": "div.product-card button.link"}
+{"question": "où est le titre ?", "html": "<h3 class='price-label'><a href='/p121' class='prod'>Produit 121</a></h3>", "label": "h3.price-label a.prod"}
+{"question": "montre-moi la photo", "html": "<figure class='item'><img src='img122.jpg' class='prod' alt='Img 122'></figure>", "label": "figure.item img.prod"}
+{"question": "quel est le lien ?", "html": "<a href='/path123' class='btn primary'>voir</a>", "label": "a.btn.primary"}
+{"question": "prix du produit", "html": "<p class='btn'>Prix: <span class='price-label'>117€</span></p>", "label": "p.btn span.price-label"}
+{"question": "je veux le lien", "html": "<div class='btn'><a href='/item125' class='main'>Lien 125</a></div>", "label": "div.btn a.main"}
+{"question": "où est la description ?", "html": "<section class='item'><span class='btn'>Texte 126</span></section>", "label": "section.item span.btn"}
+{"question": "je voudrais l'url", "html": "<a href='/path127' class='main large'>voir</a>", "label": "a.main.large"}
+{"question": "voir l'image", "html": "<figure class='link'><img src='img128.jpg' class='content' alt='Img 128'></figure>", "label": "figure.link img.content"}
+{"question": "je voudrais l'url", "html": "<div class='desc'><a href='/item129' class='desc'>Lien 129</a></div>", "label": "div.desc a.desc"}
+{"question": "je veux l'image", "html": "<img class='title highlight' src='i130.png'>", "label": "img.title.highlight"}
+{"question": "bouton d'achat", "html": "<div class='item'><button class='price-label'>Acheter 131</button></div>", "label": "div.item button.price-label"}
+{"question": "texte descriptif", "html": "<section class='btn'><span class='content'>Texte 132</span></section>", "label": "section.btn span.content"}
+{"question": "où est le lien ?", "html": "<a href='/path133' class='link large'>voir</a>", "label": "a.link.large"}
+{"question": "montre la description", "html": "<div class='content'><p class='secondary'>Description 134</p></div>", "label": "div.content p.secondary"}
+{"question": "quel est le titre ?", "html": "<h3 class='product-card'><a href='/p135' class='content'>Produit 135</a></h3>", "label": "h3.product-card a.content"}
+{"question": "affiche le prix", "html": "<p class='price-label'>Prix: <span class='item'>149€</span></p>", "label": "p.price-label span.item"}
+{"question": "afficher le bouton", "html": "<div class='desc'><button class='content'>Acheter 137</button></div>", "label": "div.desc button.content"}
+{"question": "quel est le titre ?", "html": "<ul class='link'><li class='prod'>Item 138</li></ul>", "label": "ul.link li.prod"}
+{"question": "où est l'image ?", "html": "<figure class='price-label'><img src='img139.jpg' class='secondary' alt='Img 139'></figure>", "label": "figure.price-label img.secondary"}
+{"question": "je veux le lien", "html": "<a href='/path140' class='main large'>voir</a>", "label": "a.main.large"}
+{"question": "montre la description", "html": "<section class='price-label'><span class='title'>Texte 141</span></section>", "label": "section.price-label span.title"}
+{"question": "prix ?", "html": "<span class='product-card active'>77 EUR</span>", "label": "span.product-card.active"}
+{"question": "clique sur le bouton", "html": "<button class='item small'>Ok</button>", "label": "button.item.small"}
+{"question": "montre-moi la photo", "html": "<figure class='desc'><img src='img144.jpg' class='price-label' alt='Img 144'></figure>", "label": "figure.desc img.price-label"}
+{"question": "quel est le prix ?", "html": "<span class='secondary primary'>146 EUR</span>", "label": "span.secondary.primary"}
+{"question": "montre-moi le lien", "html": "<a href='/path146' class='prod large'>voir</a>", "label": "a.prod.large"}
+{"question": "montre-moi le titre", "html": "<h3 class='content'><a href='/p147' class='title'>Produit 147</a></h3>", "label": "h3.content a.title"}
+{"question": "bouton d'achat", "html": "<div class='item'><button class='item'>Acheter 148</button></div>", "label": "div.item button.item"}
+{"question": "image du produit", "html": "<img class='prod highlight' src='i149.png'>", "label": "img.prod.highlight"}
+{"question": "image du produit", "html": "<img class='link large' src='i150.png'>", "label": "img.link.large"}
+{"question": "je veux le bouton", "html": "<button class='content active'>Ok</button>", "label": "button.content.active"}
+{"question": "où est le bouton ?", "html": "<div class='content'><button class='product-card'>Acheter 152</button></div>", "label": "div.content button.product-card"}
+{"question": "quelle est la description ?", "html": "<div class='content'><p class='desc'>Description 153</p></div>", "label": "div.content p.desc"}
+{"question": "titre du produit", "html": "<div class='item'><h1 class='secondary'>Titre 154</h1></div>", "label": "div.item h1.secondary"}
+{"question": "montre-moi le lien", "html": "<div class='item'><a href='/item155' class='main'>Lien 155</a></div>", "label": "div.item a.main"}
+{"question": "montre la description", "html": "<section class='link'><span class='btn'>Texte 156</span></section>", "label": "section.link span.btn"}
+{"question": "montre-moi la photo", "html": "<figure class='desc'><img src='img157.jpg' class='content' alt='Img 157'></figure>", "label": "figure.desc img.content"}
+{"question": "texte descriptif", "html": "<div class='desc'><p class='secondary'>Description 158</p></div>", "label": "div.desc p.secondary"}
+{"question": "montre la description", "html": "<section class='btn'><span class='prod'>Texte 159</span></section>", "label": "section.btn span.prod"}
+{"question": "afficher le bouton", "html": "<div class='content'><button class='title'>Acheter 160</button></div>", "label": "div.content button.title"}
+{"question": "donne-moi le lien", "html": "<a href='/path161' class='link large'>voir</a>", "label": "a.link.large"}
+{"question": "je voudrais l'url", "html": "<a href='/path162' class='link active'>voir</a>", "label": "a.link.active"}
+{"question": "montre-moi le lien", "html": "<div class='secondary'><a href='/item163' class='secondary'>Lien 163</a></div>", "label": "div.secondary a.secondary"}
+{"question": "je voudrais le prix", "html": "<span class='prod highlight'>100 EUR</span>", "label": "span.prod.highlight"}
+{"question": "image du produit", "html": "<img class='secondary small' src='i165.png'>", "label": "img.secondary.small"}
+{"question": "je veux le bouton", "html": "<button class='main large'>Ok</button>", "label": "button.main.large"}
+{"question": "quelle est la description ?", "html": "<section class='content'><span class='link'>Texte 167</span></section>", "label": "section.content span.link"}
+{"question": "montre-moi le lien", "html": "<div class='product-card'><a href='/item168' class='btn'>Lien 168</a></div>", "label": "div.product-card a.btn"}
+{"question": "montre-moi le titre", "html": "<div class='product-card'><h1 class='btn'>Titre 169</h1></div>", "label": "div.product-card h1.btn"}
+{"question": "montre-moi le prix", "html": "<span class='prod primary'>126 EUR</span>", "label": "span.prod.primary"}
+{"question": "affiche la description", "html": "<div class='main'><p class='item'>Description 171</p></div>", "label": "div.main p.item"}
+{"question": "quelle est la description ?", "html": "<div class='prod'><p class='content'>Description 172</p></div>", "label": "div.prod p.content"}
+{"question": "clique sur le bouton", "html": "<button class='link highlight'>Ok</button>", "label": "button.link.highlight"}
+{"question": "trouve le bouton", "html": "<button class='link primary'>Ok</button>", "label": "button.link.primary"}
+{"question": "affiche la description", "html": "<section class='price-label'><span class='price-label'>Texte 175</span></section>", "label": "section.price-label span.price-label"}
+{"question": "voir l'image", "html": "<img class='link active' src='i176.png'>", "label": "img.link.active"}
+{"question": "affiche l'image", "html": "<figure class='product-card'><img src='img177.jpg' class='content' alt='Img 177'></figure>", "label": "figure.product-card img.content"}
+{"question": "je veux le lien", "html": "<div class='desc'><a href='/item178' class='content'>Lien 178</a></div>", "label": "div.desc a.content"}
+{"question": "affiche l'image", "html": "<figure class='item'><img src='img179.jpg' class='link' alt='Img 179'></figure>", "label": "figure.item img.link"}
+{"question": "affiche le prix", "html": "<p class='content'>Prix: <span class='main'>119€</span></p>", "label": "p.content span.main"}
+{"question": "je veux le titre", "html": "<ul class='desc'><li class='product-card'>Item 181</li></ul>", "label": "ul.desc li.product-card"}
+{"question": "je voudrais le prix", "html": "<p class='btn'>Prix: <span class='price-label'>91€</span></p>", "label": "p.btn span.price-label"}
+{"question": "photo", "html": "<figure class='prod'><img src='img183.jpg' class='price-label' alt='Img 183'></figure>", "label": "figure.prod img.price-label"}
+{"question": "je voudrais le prix", "html": "<p class='price-label'>Prix: <span class='content'>164€</span></p>", "label": "p.price-label span.content"}
+{"question": "où est le bouton ?", "html": "<button class='price-label highlight'>Ok</button>", "label": "button.price-label.highlight"}
+{"question": "affiche l'image", "html": "<figure class='main'><img src='img186.jpg' class='item' alt='Img 186'></figure>", "label": "figure.main img.item"}
+{"question": "affiche le prix", "html": "<p class='link'>Prix: <span class='price-label'>199€</span></p>", "label": "p.link span.price-label"}
+{"question": "trouve le bouton", "html": "<button class='product-card active'>Ok</button>", "label": "button.product-card.active"}
+{"question": "où est le titre ?", "html": "<h3 class='item'><a href='/p189' class='main'>Produit 189</a></h3>", "label": "h3.item a.main"}
+{"question": "où est le titre ?", "html": "<div class='price-label'><h1 class='link'>Titre 190</h1></div>", "label": "div.price-label h1.link"}
+{"question": "je veux le titre", "html": "<h3 class='secondary'><a href='/p191' class='title'>Produit 191</a></h3>", "label": "h3.secondary a.title"}
+{"question": "où est le titre ?", "html": "<h3 class='main'><a href='/p192' class='btn'>Produit 192</a></h3>", "label": "h3.main a.btn"}
+{"question": "où est le bouton ?", "html": "<button class='title small'>Ok</button>", "label": "button.title.small"}
+{"question": "où est le titre ?", "html": "<ul class='btn'><li class='desc'>Item 194</li></ul>", "label": "ul.btn li.desc"}
+{"question": "photo", "html": "<figure class='btn'><img src='img195.jpg' class='link' alt='Img 195'></figure>", "label": "figure.btn img.link"}
+{"question": "texte descriptif", "html": "<section class='link'><span class='link'>Texte 196</span></section>", "label": "section.link span.link"}
+{"question": "texte descriptif", "html": "<div class='main'><p class='main'>Description 197</p></div>", "label": "div.main p.main"}
+{"question": "où est l'image ?", "html": "<figure class='main'><img src='img198.jpg' class='product-card' alt='Img 198'></figure>", "label": "figure.main img.product-card"}
+{"question": "voir l'image", "html": "<img class='price-label active' src='i199.png'>", "label": "img.price-label.active"}
+{"question": "je veux le titre", "html": "<div class='btn'><h1 class='secondary'>Titre 200</h1></div>", "label": "div.btn h1.secondary"}
+{"question": "bouton d'achat", "html": "<button class='item highlight'>Ok</button>", "label": "button.item.highlight"}
+{"question": "donne-moi le lien", "html": "<a href='/path202' class='title highlight'>voir</a>", "label": "a.title.highlight"}
+{"question": "je voudrais le prix", "html": "<p class='product-card'>Prix: <span class='title'>97€</span></p>", "label": "p.product-card span.title"}
+{"question": "titre du produit", "html": "<div class='secondary'><h1 class='secondary'>Titre 204</h1></div>", "label": "div.secondary h1.secondary"}
+{"question": "où est le titre ?", "html": "<div class='btn'><h1 class='price-label'>Titre 205</h1></div>", "label": "div.btn h1.price-label"}
+{"question": "où est le bouton ?", "html": "<button class='secondary primary'>Ok</button>", "label": "button.secondary.primary"}
+{"question": "je veux l'image", "html": "<img class='product-card active' src='i207.png'>", "label": "img.product-card.active"}
+{"question": "donne-moi le lien", "html": "<div class='link'><a href='/item208' class='secondary'>Lien 208</a></div>", "label": "div.link a.secondary"}
+{"question": "texte descriptif", "html": "<div class='secondary'><p class='desc'>Description 209</p></div>", "label": "div.secondary p.desc"}
+{"question": "je voudrais l'url", "html": "<a href='/path210' class='title highlight'>voir</a>", "label": "a.title.highlight"}
+{"question": "affiche la description", "html": "<section class='desc'><span class='desc'>Texte 211</span></section>", "label": "section.desc span.desc"}
+{"question": "bouton d'achat", "html": "<button class='secondary large'>Ok</button>", "label": "button.secondary.large"}
+{"question": "voir l'image", "html": "<figure class='desc'><img src='img213.jpg' class='desc' alt='Img 213'></figure>", "label": "figure.desc img.desc"}
+{"question": "trouve le bouton", "html": "<div class='main'><button class='secondary'>Acheter 214</button></div>", "label": "div.main button.secondary"}
+{"question": "clique sur le bouton", "html": "<div class='item'><button class='title'>Acheter 215</button></div>", "label": "div.item button.title"}
+{"question": "je veux le lien", "html": "<div class='btn'><a href='/item216' class='secondary'>Lien 216</a></div>", "label": "div.btn a.secondary"}
+{"question": "lien vers la page", "html": "<a href='/path217' class='item small'>voir</a>", "label": "a.item.small"}
+{"question": "affiche la description", "html": "<section class='btn'><span class='main'>Texte 218</span></section>", "label": "section.btn span.main"}
+{"question": "quelle est la description ?", "html": "<div class='desc'><p class='product-card'>Description 219</p></div>", "label": "div.desc p.product-card"}
+{"question": "montre la description", "html": "<div class='price-label'><p class='secondary'>Description 220</p></div>", "label": "div.price-label p.secondary"}
+{"question": "je veux le bouton", "html": "<button class='btn large'>Ok</button>", "label": "button.btn.large"}
+{"question": "où est le titre ?", "html": "<ul class='content'><li class='desc'>Item 222</li></ul>", "label": "ul.content li.desc"}
+{"question": "où est le titre ?", "html": "<h3 class='prod'><a href='/p223' class='content'>Produit 223</a></h3>", "label": "h3.prod a.content"}
+{"question": "afficher le bouton", "html": "<button class='secondary active'>Ok</button>", "label": "button.secondary.active"}
+{"question": "quelle est la description ?", "html": "<section class='item'><span class='desc'>Texte 225</span></section>", "label": "section.item span.desc"}
+{"question": "montre-moi le lien", "html": "<div class='price-label'><a href='/item226' class='product-card'>Lien 226</a></div>", "label": "div.price-label a.product-card"}
+{"question": "je veux le titre", "html": "<div class='link'><h1 class='prod'>Titre 227</h1></div>", "label": "div.link h1.prod"}
+{"question": "montre-moi le titre", "html": "<h3 class='link'><a href='/p228' class='item'>Produit 228</a></h3>", "label": "h3.link a.item"}
+{"question": "montre-moi le prix", "html": "<span class='prod highlight'>51 EUR</span>", "label": "span.prod.highlight"}
+{"question": "montre la description", "html": "<div class='product-card'><p class='main'>Description 230</p></div>", "label": "div.product-card p.main"}
+{"question": "texte descriptif", "html": "<div class='title'><p class='price-label'>Description 231</p></div>", "label": "div.title p.price-label"}
+{"question": "quel est le titre ?", "html": "<ul class='desc'><li class='main'>Item 232</li></ul>", "label": "ul.desc li.main"}
+{"question": "montre-moi le titre", "html": "<ul class='btn'><li class='main'>Item 233</li></ul>", "label": "ul.btn li.main"}
+{"question": "montre la description", "html": "<div class='product-card'><p class='content'>Description 234</p></div>", "label": "div.product-card p.content"}
+{"question": "voir l'image", "html": "<figure class='prod'><img src='img235.jpg' class='desc' alt='Img 235'></figure>", "label": "figure.prod img.desc"}
+{"question": "où est le bouton ?", "html": "<div class='item'><button class='secondary'>Acheter 236</button></div>", "label": "div.item button.secondary"}
+{"question": "afficher le bouton", "html": "<button class='prod small'>Ok</button>", "label": "button.prod.small"}
+{"question": "titre du produit", "html": "<h3 class='price-label'><a href='/p238' class='price-label'>Produit 238</a></h3>", "label": "h3.price-label a.price-label"}
+{"question": "titre du produit", "html": "<h3 class='prod'><a href='/p239' class='prod'>Produit 239</a></h3>", "label": "h3.prod a.prod"}
+{"question": "montre-moi le prix", "html": "<p class='desc'>Prix: <span class='btn'>140€</span></p>", "label": "p.desc span.btn"}
+{"question": "je veux le titre", "html": "<ul class='secondary'><li class='main'>Item 241</li></ul>", "label": "ul.secondary li.main"}
+{"question": "donne-moi le lien", "html": "<div class='prod'><a href='/item242' class='desc'>Lien 242</a></div>", "label": "div.prod a.desc"}
+{"question": "affiche la description", "html": "<div class='prod'><p class='btn'>Description 243</p></div>", "label": "div.prod p.btn"}
+{"question": "montre-moi le titre", "html": "<div class='content'><h1 class='product-card'>Titre 244</h1></div>", "label": "div.content h1.product-card"}
+{"question": "je veux le titre", "html": "<h3 class='btn'><a href='/p245' class='desc'>Produit 245</a></h3>", "label": "h3.btn a.desc"}
+{"question": "montre-moi le prix", "html": "<p class='content'>Prix: <span class='prod'>58€</span></p>", "label": "p.content span.prod"}
+{"question": "où est l'image ?", "html": "<img class='desc large' src='i247.png'>", "label": "img.desc.large"}
+{"question": "montre-moi le lien", "html": "<a href='/path248' class='main highlight'>voir</a>", "label": "a.main.highlight"}
+{"question": "lien du produit", "html": "<div class='content'><a href='/item249' class='product-card'>Lien 249</a></div>", "label": "div.content a.product-card"}
+{"question": "donne-moi le lien", "html": "<a href='/path250' class='secondary large'>voir</a>", "label": "a.secondary.large"}
+{"question": "affiche le prix", "html": "<span class='title small'>42 EUR</span>", "label": "span.title.small"}
+{"question": "texte descriptif", "html": "<section class='price-label'><span class='title'>Texte 252</span></section>", "label": "section.price-label span.title"}
+{"question": "je veux le bouton", "html": "<button class='product-card active'>Ok</button>", "label": "button.product-card.active"}
+{"question": "quelle est la description ?", "html": "<div class='product-card'><p class='item'>Description 254</p></div>", "label": "div.product-card p.item"}
+{"question": "quel est le titre ?", "html": "<div class='prod'><h1 class='content'>Titre 255</h1></div>", "label": "div.prod h1.content"}
+{"question": "montre la description", "html": "<div class='desc'><p class='btn'>Description 256</p></div>", "label": "div.desc p.btn"}
+{"question": "quel est le prix ?", "html": "<span class='desc highlight'>140 EUR</span>", "label": "span.desc.highlight"}
+{"question": "trouve le bouton", "html": "<div class='btn'><button class='btn'>Acheter 258</button></div>", "label": "div.btn button.btn"}
+{"question": "texte descriptif", "html": "<section class='product-card'><span class='prod'>Texte 259</span></section>", "label": "section.product-card span.prod"}
+{"question": "bouton d'achat", "html": "<div class='title'><button class='main'>Acheter 260</button></div>", "label": "div.title button.main"}
+{"question": "trouve le bouton", "html": "<div class='price-label'><button class='link'>Acheter 261</button></div>", "label": "div.price-label button.link"}
+{"question": "montre la description", "html": "<section class='price-label'><span class='price-label'>Texte 262</span></section>", "label": "section.price-label span.price-label"}
+{"question": "où est le titre ?", "html": "<ul class='content'><li class='prod'>Item 263</li></ul>", "label": "ul.content li.prod"}
+{"question": "où est le bouton ?", "html": "<div class='secondary'><button class='prod'>Acheter 264</button></div>", "label": "div.secondary button.prod"}
+{"question": "je voudrais le prix", "html": "<p class='secondary'>Prix: <span class='content'>71€</span></p>", "label": "p.secondary span.content"}
+{"question": "bouton d'achat", "html": "<button class='title primary'>Ok</button>", "label": "button.title.primary"}
+{"question": "donne-moi le lien", "html": "<div class='prod'><a href='/item267' class='item'>Lien 267</a></div>", "label": "div.prod a.item"}
+{"question": "titre du produit", "html": "<ul class='item'><li class='item'>Item 268</li></ul>", "label": "ul.item li.item"}
+{"question": "prix ?", "html": "<span class='title large'>141 EUR</span>", "label": "span.title.large"}
+{"question": "montre-moi le titre", "html": "<div class='item'><h1 class='btn'>Titre 270</h1></div>", "label": "div.item h1.btn"}
+{"question": "montre la description", "html": "<section class='btn'><span class='product-card'>Texte 271</span></section>", "label": "section.btn span.product-card"}
+{"question": "montre-moi le lien", "html": "<div class='desc'><a href='/item272' class='secondary'>Lien 272</a></div>", "label": "div.desc a.secondary"}
+{"question": "montre-moi le titre", "html": "<ul class='desc'><li class='product-card'>Item 273</li></ul>", "label": "ul.desc li.product-card"}
+{"question": "affiche la description", "html": "<div class='item'><p class='desc'>Description 274</p></div>", "label": "div.item p.desc"}
+{"question": "je voudrais le prix", "html": "<span class='price-label highlight'>154 EUR</span>", "label": "span.price-label.highlight"}
+{"question": "quel est le lien ?", "html": "<a href='/path276' class='product-card large'>voir</a>", "label": "a.product-card.large"}
+{"question": "donne-moi le lien", "html": "<a href='/path277' class='title active'>voir</a>", "label": "a.title.active"}
+{"question": "quelle est la description ?", "html": "<div class='product-card'><p class='btn'>Description 278</p></div>", "label": "div.product-card p.btn"}
+{"question": "quelle est la description ?", "html": "<div class='content'><p class='prod'>Description 279</p></div>", "label": "div.content p.prod"}
+{"question": "je veux le lien", "html": "<div class='prod'><a href='/item280' class='desc'>Lien 280</a></div>", "label": "div.prod a.desc"}
+{"question": "je veux l'image", "html": "<figure class='title'><img src='img281.jpg' class='title' alt='Img 281'></figure>", "label": "figure.title img.title"}
+{"question": "où est le bouton ?", "html": "<div class='prod'><button class='secondary'>Acheter 282</button></div>", "label": "div.prod button.secondary"}
+{"question": "où est le lien ?", "html": "<a href='/path283' class='btn small'>voir</a>", "label": "a.btn.small"}
+{"question": "je veux le bouton", "html": "<div class='btn'><button class='btn'>Acheter 284</button></div>", "label": "div.btn button.btn"}
+{"question": "quel est le lien ?", "html": "<div class='content'><a href='/item285' class='secondary'>Lien 285</a></div>", "label": "div.content a.secondary"}
+{"question": "montre-moi le prix", "html": "<p class='secondary'>Prix: <span class='price-label'>53€</span></p>", "label": "p.secondary span.price-label"}
+{"question": "affiche la description", "html": "<div class='link'><p class='btn'>Description 287</p></div>", "label": "div.link p.btn"}
+{"question": "montre-moi le prix", "html": "<span class='desc small'>13 EUR</span>", "label": "span.desc.small"}
+{"question": "montre-moi le prix", "html": "<span class='secondary large'>193 EUR</span>", "label": "span.secondary.large"}
+{"question": "où est le bouton ?", "html": "<div class='product-card'><button class='product-card'>Acheter 290</button></div>", "label": "div.product-card button.product-card"}
+{"question": "où est le lien ?", "html": "<div class='product-card'><a href='/item291' class='item'>Lien 291</a></div>", "label": "div.product-card a.item"}
+{"question": "je veux le titre", "html": "<ul class='btn'><li class='secondary'>Item 292</li></ul>", "label": "ul.btn li.secondary"}
+{"question": "quel est le lien ?", "html": "<a href='/path293' class='secondary highlight'>voir</a>", "label": "a.secondary.highlight"}
+{"question": "afficher le bouton", "html": "<div class='title'><button class='prod'>Acheter 294</button></div>", "label": "div.title button.prod"}
+{"question": "où est l'image ?", "html": "<figure class='btn'><img src='img295.jpg' class='desc' alt='Img 295'></figure>", "label": "figure.btn img.desc"}
+{"question": "affiche l'image", "html": "<figure class='desc'><img src='img296.jpg' class='desc' alt='Img 296'></figure>", "label": "figure.desc img.desc"}
+{"question": "affiche le prix", "html": "<p class='desc'>Prix: <span class='link'>111€</span></p>", "label": "p.desc span.link"}
+{"question": "voir l'image", "html": "<figure class='price-label'><img src='img298.jpg' class='price-label' alt='Img 298'></figure>", "label": "figure.price-label img.price-label"}
+{"question": "montre-moi le lien", "html": "<div class='main'><a href='/item299' class='main'>Lien 299</a></div>", "label": "div.main a.main"}
+{"question": "je veux le lien", "html": "<div class='main'><a href='/item300' class='title'>Lien 300</a></div>", "label": "div.main a.title"}
+{"question": "afficher le bouton", "html": "<button class='btn large'>Ok</button>", "label": "button.btn.large"}
+{"question": "texte descriptif", "html": "<section class='desc'><span class='desc'>Texte 302</span></section>", "label": "section.desc span.desc"}
+{"question": "je voudrais le prix", "html": "<span class='btn primary'>97 EUR</span>", "label": "span.btn.primary"}
+{"question": "je veux le lien", "html": "<a href='/path304' class='main highlight'>voir</a>", "label": "a.main.highlight"}
+{"question": "où est la description ?", "html": "<div class='title'><p class='btn'>Description 305</p></div>", "label": "div.title p.btn"}
+{"question": "où est le titre ?", "html": "<ul class='product-card'><li class='link'>Item 306</li></ul>", "label": "ul.product-card li.link"}
+{"question": "où est la description ?", "html": "<div class='price-label'><p class='desc'>Description 307</p></div>", "label": "div.price-label p.desc"}
+{"question": "lien du produit", "html": "<a href='/path308' class='secondary large'>voir</a>", "label": "a.secondary.large"}
+{"question": "quelle est la description ?", "html": "<section class='link'><span class='title'>Texte 309</span></section>", "label": "section.link span.title"}
+{"question": "affiche le prix", "html": "<span class='btn active'>120 EUR</span>", "label": "span.btn.active"}
+{"question": "où est le lien ?", "html": "<a href='/path311' class='item active'>voir</a>", "label": "a.item.active"}
+{"question": "où est le bouton ?", "html": "<div class='btn'><button class='link'>Acheter 312</button></div>", "label": "div.btn button.link"}
+{"question": "trouve le bouton", "html": "<button class='content highlight'>Ok</button>", "label": "button.content.highlight"}
+{"question": "titre du produit", "html": "<h3 class='title'><a href='/p314' class='secondary'>Produit 314</a></h3>", "label": "h3.title a.secondary"}
+{"question": "bouton d'achat", "html": "<div class='title'><button class='secondary'>Acheter 315</button></div>", "label": "div.title button.secondary"}
+{"question": "montre la description", "html": "<section class='btn'><span class='desc'>Texte 316</span></section>", "label": "section.btn span.desc"}
+{"question": "montre-moi le lien", "html": "<a href='/path317' class='desc large'>voir</a>", "label": "a.desc.large"}
+{"question": "donne-moi le lien", "html": "<a href='/path318' class='item primary'>voir</a>", "label": "a.item.primary"}
+{"question": "prix du produit", "html": "<span class='secondary small'>37 EUR</span>", "label": "span.secondary.small"}
+{"question": "où est le titre ?", "html": "<ul class='secondary'><li class='link'>Item 320</li></ul>", "label": "ul.secondary li.link"}
+{"question": "afficher le bouton", "html": "<button class='price-label small'>Ok</button>", "label": "button.price-label.small"}
+{"question": "photo", "html": "<figure class='product-card'><img src='img322.jpg' class='product-card' alt='Img 322'></figure>", "label": "figure.product-card img.product-card"}
+{"question": "texte descriptif", "html": "<section class='content'><span class='title'>Texte 323</span></section>", "label": "section.content span.title"}
+{"question": "montre la description", "html": "<div class='main'><p class='price-label'>Description 324</p></div>", "label": "div.main p.price-label"}
+{"question": "où est le bouton ?", "html": "<button class='item small'>Ok</button>", "label": "button.item.small"}
+{"question": "montre-moi le titre", "html": "<div class='btn'><h1 class='prod'>Titre 326</h1></div>", "label": "div.btn h1.prod"}
+{"question": "voir l'image", "html": "<img class='desc highlight' src='i327.png'>", "label": "img.desc.highlight"}
+{"question": "où est le bouton ?", "html": "<div class='desc'><button class='btn'>Acheter 328</button></div>", "label": "div.desc button.btn"}
+{"question": "je voudrais l'url", "html": "<a href='/path329' class='secondary small'>voir</a>", "label": "a.secondary.small"}
+{"question": "affiche le prix", "html": "<p class='prod'>Prix: <span class='content'>132€</span></p>", "label": "p.prod span.content"}
+{"question": "image du produit", "html": "<figure class='price-label'><img src='img331.jpg' class='prod' alt='Img 331'></figure>", "label": "figure.price-label img.prod"}
+{"question": "je voudrais l'url", "html": "<a href='/path332' class='price-label primary'>voir</a>", "label": "a.price-label.primary"}
+{"question": "où est le bouton ?", "html": "<div class='price-label'><button class='main'>Acheter 333</button></div>", "label": "div.price-label button.main"}
+{"question": "voir l'image", "html": "<figure class='content'><img src='img334.jpg' class='desc' alt='Img 334'></figure>", "label": "figure.content img.desc"}
+{"question": "où est l'image ?", "html": "<figure class='price-label'><img src='img335.jpg' class='content' alt='Img 335'></figure>", "label": "figure.price-label img.content"}
+{"question": "où est le bouton ?", "html": "<div class='title'><button class='item'>Acheter 336</button></div>", "label": "div.title button.item"}
+{"question": "quel est le titre ?", "html": "<div class='btn'><h1 class='main'>Titre 337</h1></div>", "label": "div.btn h1.main"}
+{"question": "je veux le lien", "html": "<div class='desc'><a href='/item338' class='prod'>Lien 338</a></div>", "label": "div.desc a.prod"}
+{"question": "image du produit", "html": "<img class='title highlight' src='i339.png'>", "label": "img.title.highlight"}
+{"question": "montre-moi le lien", "html": "<div class='link'><a href='/item340' class='link'>Lien 340</a></div>", "label": "div.link a.link"}
+{"question": "prix ?", "html": "<p class='product-card'>Prix: <span class='content'>140€</span></p>", "label": "p.product-card span.content"}
+{"question": "montre-moi la photo", "html": "<figure class='item'><img src='img342.jpg' class='price-label' alt='Img 342'></figure>", "label": "figure.item img.price-label"}
+{"question": "affiche la description", "html": "<section class='title'><span class='desc'>Texte 343</span></section>", "label": "section.title span.desc"}
+{"question": "je voudrais le prix", "html": "<p class='content'>Prix: <span class='secondary'>82€</span></p>", "label": "p.content span.secondary"}
+{"question": "affiche le prix", "html": "<span class='item large'>100 EUR</span>", "label": "span.item.large"}
+{"question": "où est l'image ?", "html": "<img class='secondary highlight' src='i346.png'>", "label": "img.secondary.highlight"}
+{"question": "montre-moi le lien", "html": "<a href='/path347' class='title large'>voir</a>", "label": "a.title.large"}
+{"question": "montre-moi la photo", "html": "<figure class='content'><img src='img348.jpg' class='price-label' alt='Img 348'></figure>", "label": "figure.content img.price-label"}
+{"question": "montre la description", "html": "<div class='link'><p class='btn'>Description 349</p></div>", "label": "div.link p.btn"}
+{"question": "voir l'image", "html": "<figure class='secondary'><img src='img350.jpg' class='desc' alt='Img 350'></figure>", "label": "figure.secondary img.desc"}
+{"question": "affiche l'image", "html": "<img class='main primary' src='i351.png'>", "label": "img.main.primary"}
+{"question": "bouton d'achat", "html": "<button class='content primary'>Ok</button>", "label": "button.content.primary"}
+{"question": "je veux le titre", "html": "<div class='product-card'><h1 class='item'>Titre 353</h1></div>", "label": "div.product-card h1.item"}
+{"question": "je voudrais le prix", "html": "<p class='desc'>Prix: <span class='product-card'>20€</span></p>", "label": "p.desc span.product-card"}
+{"question": "je veux l'image", "html": "<figure class='price-label'><img src='img355.jpg' class='link' alt='Img 355'></figure>", "label": "figure.price-label img.link"}
+{"question": "où est le bouton ?", "html": "<div class='title'><button class='product-card'>Acheter 356</button></div>", "label": "div.title button.product-card"}
+{"question": "quel est le lien ?", "html": "<a href='/path357' class='product-card primary'>voir</a>", "label": "a.product-card.primary"}
+{"question": "voir l'image", "html": "<figure class='content'><img src='img358.jpg' class='link' alt='Img 358'></figure>", "label": "figure.content img.link"}
+{"question": "quel est le lien ?", "html": "<a href='/path359' class='prod primary'>voir</a>", "label": "a.prod.primary"}
+{"question": "quel est le lien ?", "html": "<a href='/path360' class='content active'>voir</a>", "label": "a.content.active"}
+{"question": "je voudrais l'url", "html": "<a href='/path361' class='main highlight'>voir</a>", "label": "a.main.highlight"}
+{"question": "montre la description", "html": "<section class='title'><span class='title'>Texte 362</span></section>", "label": "section.title span.title"}
+{"question": "prix du produit", "html": "<span class='item highlight'>36 EUR</span>", "label": "span.item.highlight"}
+{"question": "photo", "html": "<figure class='price-label'><img src='img364.jpg' class='product-card' alt='Img 364'></figure>", "label": "figure.price-label img.product-card"}
+{"question": "titre du produit", "html": "<div class='btn'><h1 class='desc'>Titre 365</h1></div>", "label": "div.btn h1.desc"}
+{"question": "affiche le prix", "html": "<p class='desc'>Prix: <span class='prod'>40€</span></p>", "label": "p.desc span.prod"}
+{"question": "affiche l'image", "html": "<figure class='content'><img src='img367.jpg' class='item' alt='Img 367'></figure>", "label": "figure.content img.item"}
+{"question": "afficher le bouton", "html": "<div class='content'><button class='prod'>Acheter 368</button></div>", "label": "div.content button.prod"}
+{"question": "titre du produit", "html": "<h3 class='desc'><a href='/p369' class='item'>Produit 369</a></h3>", "label": "h3.desc a.item"}
+{"question": "je voudrais le prix", "html": "<p class='content'>Prix: <span class='link'>133€</span></p>", "label": "p.content span.link"}
+{"question": "lien vers la page", "html": "<div class='content'><a href='/item371' class='product-card'>Lien 371</a></div>", "label": "div.content a.product-card"}
+{"question": "je voudrais le prix", "html": "<p class='desc'>Prix: <span class='link'>132€</span></p>", "label": "p.desc span.link"}
+{"question": "trouve le bouton", "html": "<div class='link'><button class='content'>Acheter 373</button></div>", "label": "div.link button.content"}
+{"question": "je veux l'image", "html": "<img class='btn small' src='i374.png'>", "label": "img.btn.small"}
+{"question": "montre-moi le prix", "html": "<p class='price-label'>Prix: <span class='prod'>25€</span></p>", "label": "p.price-label span.prod"}
+{"question": "texte descriptif", "html": "<div class='product-card'><p class='title'>Description 376</p></div>", "label": "div.product-card p.title"}
+{"question": "quel est le lien ?", "html": "<a href='/path377' class='link large'>voir</a>", "label": "a.link.large"}
+{"question": "bouton d'achat", "html": "<div class='desc'><button class='product-card'>Acheter 378</button></div>", "label": "div.desc button.product-card"}
+{"question": "prix du produit", "html": "<p class='title'>Prix: <span class='btn'>148€</span></p>", "label": "p.title span.btn"}
+{"question": "prix du produit", "html": "<span class='desc primary'>172 EUR</span>", "label": "span.desc.primary"}
+{"question": "affiche le prix", "html": "<span class='secondary small'>64 EUR</span>", "label": "span.secondary.small"}
+{"question": "photo", "html": "<img class='link large' src='i382.png'>", "label": "img.link.large"}
+{"question": "quelle est la description ?", "html": "<div class='prod'><p class='link'>Description 383</p></div>", "label": "div.prod p.link"}
+{"question": "trouve le bouton", "html": "<div class='link'><button class='content'>Acheter 384</button></div>", "label": "div.link button.content"}
+{"question": "titre du produit", "html": "<div class='item'><h1 class='prod'>Titre 385</h1></div>", "label": "div.item h1.prod"}
+{"question": "titre du produit", "html": "<div class='title'><h1 class='content'>Titre 386</h1></div>", "label": "div.title h1.content"}
+{"question": "trouve le bouton", "html": "<button class='content large'>Ok</button>", "label": "button.content.large"}
+{"question": "quelle est la description ?", "html": "<div class='content'><p class='item'>Description 388</p></div>", "label": "div.content p.item"}
+{"question": "où est le titre ?", "html": "<ul class='btn'><li class='desc'>Item 389</li></ul>", "label": "ul.btn li.desc"}
+{"question": "montre-moi le prix", "html": "<p class='title'>Prix: <span class='product-card'>113€</span></p>", "label": "p.title span.product-card"}
+{"question": "voir l'image", "html": "<figure class='desc'><img src='img391.jpg' class='main' alt='Img 391'></figure>", "label": "figure.desc img.main"}
+{"question": "prix du produit", "html": "<p class='secondary'>Prix: <span class='product-card'>145€</span></p>", "label": "p.secondary span.product-card"}
+{"question": "je veux l'image", "html": "<img class='desc small' src='i393.png'>", "label": "img.desc.small"}
+{"question": "affiche l'image", "html": "<figure class='main'><img src='img394.jpg' class='content' alt='Img 394'></figure>", "label": "figure.main img.content"}
+{"question": "quel est le prix ?", "html": "<span class='price-label active'>200 EUR</span>", "label": "span.price-label.active"}
+{"question": "où est le titre ?", "html": "<ul class='link'><li class='main'>Item 396</li></ul>", "label": "ul.link li.main"}
+{"question": "où est la description ?", "html": "<div class='btn'><p class='content'>Description 397</p></div>", "label": "div.btn p.content"}
+{"question": "image du produit", "html": "<img class='link large' src='i398.png'>", "label": "img.link.large"}
+{"question": "où est le bouton ?", "html": "<button class='link small'>Ok</button>", "label": "button.link.small"}
+{"question": "lien vers la page", "html": "<div class='btn'><a href='/item400' class='title'>Lien 400</a></div>", "label": "div.btn a.title"}
+{"question": "affiche l'image", "html": "<figure class='prod'><img src='img401.jpg' class='content' alt='Img 401'></figure>", "label": "figure.prod img.content"}
+{"question": "montre la description", "html": "<section class='product-card'><span class='item'>Texte 402</span></section>", "label": "section.product-card span.item"}
+{"question": "je veux le titre", "html": "<ul class='btn'><li class='product-card'>Item 403</li></ul>", "label": "ul.btn li.product-card"}
+{"question": "je voudrais le prix", "html": "<p class='product-card'>Prix: <span class='secondary'>77€</span></p>", "label": "p.product-card span.secondary"}
+{"question": "photo", "html": "<figure class='title'><img src='img405.jpg' class='price-label' alt='Img 405'></figure>", "label": "figure.title img.price-label"}
+{"question": "titre du produit", "html": "<div class='link'><h1 class='prod'>Titre 406</h1></div>", "label": "div.link h1.prod"}
+{"question": "où est le bouton ?", "html": "<button class='product-card primary'>Ok</button>", "label": "button.product-card.primary"}
+{"question": "quel est le titre ?", "html": "<div class='price-label'><h1 class='title'>Titre 408</h1></div>", "label": "div.price-label h1.title"}
+{"question": "affiche le prix", "html": "<span class='desc active'>74 EUR</span>", "label": "span.desc.active"}
+{"question": "affiche l'image", "html": "<figure class='prod'><img src='img410.jpg' class='item' alt='Img 410'></figure>", "label": "figure.prod img.item"}
+{"question": "quel est le lien ?", "html": "<div class='prod'><a href='/item411' class='link'>Lien 411</a></div>", "label": "div.prod a.link"}
+{"question": "bouton d'achat", "html": "<div class='secondary'><button class='link'>Acheter 412</button></div>", "label": "div.secondary button.link"}
+{"question": "affiche la description", "html": "<section class='content'><span class='title'>Texte 413</span></section>", "label": "section.content span.title"}
+{"question": "clique sur le bouton", "html": "<button class='link large'>Ok</button>", "label": "button.link.large"}
+{"question": "titre du produit", "html": "<h3 class='prod'><a href='/p415' class='secondary'>Produit 415</a></h3>", "label": "h3.prod a.secondary"}
+{"question": "quel est le titre ?", "html": "<h3 class='title'><a href='/p416' class='product-card'>Produit 416</a></h3>", "label": "h3.title a.product-card"}
+{"question": "où est le titre ?", "html": "<h3 class='item'><a href='/p417' class='btn'>Produit 417</a></h3>", "label": "h3.item a.btn"}
+{"question": "bouton d'achat", "html": "<button class='content active'>Ok</button>", "label": "button.content.active"}
+{"question": "afficher le bouton", "html": "<button class='item active'>Ok</button>", "label": "button.item.active"}
+{"question": "texte descriptif", "html": "<div class='btn'><p class='price-label'>Description 420</p></div>", "label": "div.btn p.price-label"}
+{"question": "titre du produit", "html": "<div class='price-label'><h1 class='product-card'>Titre 421</h1></div>", "label": "div.price-label h1.product-card"}
+{"question": "image du produit", "html": "<figure class='secondary'><img src='img422.jpg' class='title' alt='Img 422'></figure>", "label": "figure.secondary img.title"}
+{"question": "titre du produit", "html": "<h3 class='product-card'><a href='/p423' class='link'>Produit 423</a></h3>", "label": "h3.product-card a.link"}
+{"question": "affiche le prix", "html": "<span class='desc large'>81 EUR</span>", "label": "span.desc.large"}
+{"question": "je voudrais le prix", "html": "<p class='price-label'>Prix: <span class='title'>135€</span></p>", "label": "p.price-label span.title"}
+{"question": "où est la description ?", "html": "<section class='item'><span class='desc'>Texte 426</span></section>", "label": "section.item span.desc"}
+{"question": "quel est le lien ?", "html": "<div class='link'><a href='/item427' class='content'>Lien 427</a></div>", "label": "div.link a.content"}
+{"question": "affiche l'image", "html": "<figure class='price-label'><img src='img428.jpg' class='item' alt='Img 428'></figure>", "label": "figure.price-label img.item"}
+{"question": "quel est le lien ?", "html": "<div class='title'><a href='/item429' class='prod'>Lien 429</a></div>", "label": "div.title a.prod"}
+{"question": "affiche l'image", "html": "<img class='price-label large' src='i430.png'>", "label": "img.price-label.large"}
+{"question": "montre la description", "html": "<section class='product-card'><span class='btn'>Texte 431</span></section>", "label": "section.product-card span.btn"}
+{"question": "montre-moi le prix", "html": "<p class='btn'>Prix: <span class='link'>47€</span></p>", "label": "p.btn span.link"}
+{"question": "clique sur le bouton", "html": "<button class='prod active'>Ok</button>", "label": "button.prod.active"}
+{"question": "montre la description", "html": "<section class='desc'><span class='btn'>Texte 434</span></section>", "label": "section.desc span.btn"}
+{"question": "prix ?", "html": "<span class='btn primary'>144 EUR</span>", "label": "span.btn.primary"}
+{"question": "je veux le titre", "html": "<ul class='product-card'><li class='content'>Item 436</li></ul>", "label": "ul.product-card li.content"}
+{"question": "afficher le bouton", "html": "<div class='desc'><button class='prod'>Acheter 437</button></div>", "label": "div.desc button.prod"}
+{"question": "où est le bouton ?", "html": "<button class='content active'>Ok</button>", "label": "button.content.active"}
+{"question": "trouve le bouton", "html": "<button class='item active'>Ok</button>", "label": "button.item.active"}
+{"question": "je voudrais l'url", "html": "<a href='/path440' class='secondary highlight'>voir</a>", "label": "a.secondary.highlight"}
+{"question": "où est le titre ?", "html": "<div class='desc'><h1 class='price-label'>Titre 441</h1></div>", "label": "div.desc h1.price-label"}
+{"question": "quel est le prix ?", "html": "<p class='link'>Prix: <span class='product-card'>140€</span></p>", "label": "p.link span.product-card"}
+{"question": "montre la description", "html": "<section class='content'><span class='link'>Texte 443</span></section>", "label": "section.content span.link"}
+{"question": "affiche le prix", "html": "<span class='prod highlight'>13 EUR</span>", "label": "span.prod.highlight"}
+{"question": "je veux le bouton", "html": "<div class='title'><button class='secondary'>Acheter 445</button></div>", "label": "div.title button.secondary"}
+{"question": "afficher le bouton", "html": "<button class='price-label primary'>Ok</button>", "label": "button.price-label.primary"}
+{"question": "je veux le titre", "html": "<ul class='link'><li class='main'>Item 447</li></ul>", "label": "ul.link li.main"}
+{"question": "titre du produit", "html": "<h3 class='content'><a href='/p448' class='btn'>Produit 448</a></h3>", "label": "h3.content a.btn"}
+{"question": "où est la description ?", "html": "<div class='secondary'><p class='main'>Description 449</p></div>", "label": "div.secondary p.main"}
+{"question": "quel est le lien ?", "html": "<a href='/path450' class='price-label small'>voir</a>", "label": "a.price-label.small"}
+{"question": "où est le lien ?", "html": "<a href='/path451' class='price-label small'>voir</a>", "label": "a.price-label.small"}
+{"question": "je veux le titre", "html": "<ul class='main'><li class='prod'>Item 452</li></ul>", "label": "ul.main li.prod"}
+{"question": "où est la description ?", "html": "<div class='price-label'><p class='desc'>Description 453</p></div>", "label": "div.price-label p.desc"}
+{"question": "je veux le lien", "html": "<div class='link'><a href='/item454' class='price-label'>Lien 454</a></div>", "label": "div.link a.price-label"}
+{"question": "donne-moi le lien", "html": "<div class='link'><a href='/item455' class='main'>Lien 455</a></div>", "label": "div.link a.main"}
+{"question": "prix ?", "html": "<p class='btn'>Prix: <span class='main'>179€</span></p>", "label": "p.btn span.main"}
+{"question": "affiche le prix", "html": "<span class='product-card active'>15 EUR</span>", "label": "span.product-card.active"}
+{"question": "trouve le bouton", "html": "<div class='price-label'><button class='link'>Acheter 458</button></div>", "label": "div.price-label button.link"}
+{"question": "quelle est la description ?", "html": "<div class='title'><p class='item'>Description 459</p></div>", "label": "div.title p.item"}
+{"question": "où est la description ?", "html": "<section class='product-card'><span class='btn'>Texte 460</span></section>", "label": "section.product-card span.btn"}
+{"question": "titre du produit", "html": "<h3 class='title'><a href='/p461' class='link'>Produit 461</a></h3>", "label": "h3.title a.link"}
+{"question": "bouton d'achat", "html": "<div class='btn'><button class='content'>Acheter 462</button></div>", "label": "div.btn button.content"}
+{"question": "où est le bouton ?", "html": "<button class='main primary'>Ok</button>", "label": "button.main.primary"}
+{"question": "je veux le lien", "html": "<a href='/path464' class='product-card primary'>voir</a>", "label": "a.product-card.primary"}
+{"question": "donne-moi le lien", "html": "<a href='/path465' class='title small'>voir</a>", "label": "a.title.small"}
+{"question": "texte descriptif", "html": "<div class='btn'><p class='title'>Description 466</p></div>", "label": "div.btn p.title"}
+{"question": "montre-moi le prix", "html": "<span class='price-label active'>127 EUR</span>", "label": "span.price-label.active"}
+{"question": "affiche l'image", "html": "<figure class='prod'><img src='img468.jpg' class='price-label' alt='Img 468'></figure>", "label": "figure.prod img.price-label"}
+{"question": "je voudrais le prix", "html": "<span class='desc primary'>165 EUR</span>", "label": "span.desc.primary"}
+{"question": "quel est le titre ?", "html": "<ul class='btn'><li class='secondary'>Item 470</li></ul>", "label": "ul.btn li.secondary"}
+{"question": "afficher le bouton", "html": "<div class='content'><button class='price-label'>Acheter 471</button></div>", "label": "div.content button.price-label"}
+{"question": "où est le titre ?", "html": "<h3 class='price-label'><a href='/p472' class='item'>Produit 472</a></h3>", "label": "h3.price-label a.item"}
+{"question": "quel est le titre ?", "html": "<ul class='item'><li class='product-card'>Item 473</li></ul>", "label": "ul.item li.product-card"}
+{"question": "je veux le titre", "html": "<ul class='btn'><li class='item'>Item 474</li></ul>", "label": "ul.btn li.item"}
+{"question": "lien du produit", "html": "<div class='title'><a href='/item475' class='secondary'>Lien 475</a></div>", "label": "div.title a.secondary"}
+{"question": "je veux le titre", "html": "<div class='main'><h1 class='link'>Titre 476</h1></div>", "label": "div.main h1.link"}
+{"question": "montre-moi le lien", "html": "<div class='product-card'><a href='/item477' class='main'>Lien 477</a></div>", "label": "div.product-card a.main"}
+{"question": "lien vers la page", "html": "<a href='/path478' class='prod active'>voir</a>", "label": "a.prod.active"}
+{"question": "clique sur le bouton", "html": "<button class='prod primary'>Ok</button>", "label": "button.prod.primary"}
+{"question": "prix ?", "html": "<span class='item small'>130 EUR</span>", "label": "span.item.small"}
+{"question": "quel est le titre ?", "html": "<h3 class='price-label'><a href='/p481' class='link'>Produit 481</a></h3>", "label": "h3.price-label a.link"}
+{"question": "titre du produit", "html": "<div class='product-card'><h1 class='prod'>Titre 482</h1></div>", "label": "div.product-card h1.prod"}
+{"question": "je veux le bouton", "html": "<div class='btn'><button class='prod'>Acheter 483</button></div>", "label": "div.btn button.prod"}
+{"question": "je veux le lien", "html": "<div class='title'><a href='/item484' class='btn'>Lien 484</a></div>", "label": "div.title a.btn"}
+{"question": "où est l'image ?", "html": "<figure class='title'><img src='img485.jpg' class='link' alt='Img 485'></figure>", "label": "figure.title img.link"}
+{"question": "quel est le titre ?", "html": "<div class='content'><h1 class='content'>Titre 486</h1></div>", "label": "div.content h1.content"}
+{"question": "voir l'image", "html": "<figure class='title'><img src='img487.jpg' class='content' alt='Img 487'></figure>", "label": "figure.title img.content"}
+{"question": "montre-moi la photo", "html": "<img class='desc small' src='i488.png'>", "label": "img.desc.small"}
+{"question": "clique sur le bouton", "html": "<div class='secondary'><button class='desc'>Acheter 489</button></div>", "label": "div.secondary button.desc"}
+{"question": "image du produit", "html": "<figure class='btn'><img src='img490.jpg' class='btn' alt='Img 490'></figure>", "label": "figure.btn img.btn"}
+{"question": "prix ?", "html": "<span class='secondary active'>144 EUR</span>", "label": "span.secondary.active"}
+{"question": "affiche le prix", "html": "<span class='title large'>112 EUR</span>", "label": "span.title.large"}
+{"question": "affiche la description", "html": "<div class='secondary'><p class='main'>Description 493</p></div>", "label": "div.secondary p.main"}
+{"question": "prix ?", "html": "<p class='prod'>Prix: <span class='product-card'>103€</span></p>", "label": "p.prod span.product-card"}
+{"question": "quel est le titre ?", "html": "<ul class='prod'><li class='product-card'>Item 495</li></ul>", "label": "ul.prod li.product-card"}
+{"question": "montre-moi la photo", "html": "<img class='title large' src='i496.png'>", "label": "img.title.large"}
+{"question": "où est le bouton ?", "html": "<button class='prod small'>Ok</button>", "label": "button.prod.small"}
+{"question": "prix ?", "html": "<span class='product-card highlight'>56 EUR</span>", "label": "span.product-card.highlight"}
+{"question": "montre-moi le titre", "html": "<h3 class='content'><a href='/p499' class='content'>Produit 499</a></h3>", "label": "h3.content a.content"}
+{"question": "montre-moi le titre", "html": "<div class='secondary'><h1 class='content'>Titre 500</h1></div>", "label": "div.secondary h1.content"}
+{"question": "montre-moi le lien", "html": "<div class='content'><a href='/item501' class='prod'>Lien 501</a></div>", "label": "div.content a.prod"}
+{"question": "je veux le titre", "html": "<div class='main'><h1 class='content'>Titre 502</h1></div>", "label": "div.main h1.content"}
+{"question": "je voudrais le prix", "html": "<span class='secondary primary'>166 EUR</span>", "label": "span.secondary.primary"}
+{"question": "montre la description", "html": "<div class='main'><p class='title'>Description 504</p></div>", "label": "div.main p.title"}
+{"question": "afficher le bouton", "html": "<button class='desc primary'>Ok</button>", "label": "button.desc.primary"}
+{"question": "où est le titre ?", "html": "<h3 class='link'><a href='/p506' class='link'>Produit 506</a></h3>", "label": "h3.link a.link"}
+{"question": "prix ?", "html": "<span class='content primary'>163 EUR</span>", "label": "span.content.primary"}
+{"question": "montre-moi le prix", "html": "<span class='btn highlight'>72 EUR</span>", "label": "span.btn.highlight"}
+{"question": "où est le titre ?", "html": "<ul class='price-label'><li class='prod'>Item 509</li></ul>", "label": "ul.price-label li.prod"}
+{"question": "montre-moi la photo", "html": "<figure class='content'><img src='img510.jpg' class='content' alt='Img 510'></figure>", "label": "figure.content img.content"}
+{"question": "quel est le prix ?", "html": "<span class='main primary'>191 EUR</span>", "label": "span.main.primary"}
+{"question": "je veux le bouton", "html": "<button class='link highlight'>Ok</button>", "label": "button.link.highlight"}
+{"question": "trouve le bouton", "html": "<button class='title large'>Ok</button>", "label": "button.title.large"}
+{"question": "où est le lien ?", "html": "<div class='product-card'><a href='/item514' class='link'>Lien 514</a></div>", "label": "div.product-card a.link"}
+{"question": "je veux le bouton", "html": "<button class='item highlight'>Ok</button>", "label": "button.item.highlight"}
+{"question": "texte descriptif", "html": "<section class='content'><span class='desc'>Texte 516</span></section>", "label": "section.content span.desc"}
+{"question": "montre-moi le lien", "html": "<div class='item'><a href='/item517' class='product-card'>Lien 517</a></div>", "label": "div.item a.product-card"}
+{"question": "je voudrais le prix", "html": "<span class='content highlight'>150 EUR</span>", "label": "span.content.highlight"}
+{"question": "je veux l'image", "html": "<img class='link active' src='i519.png'>", "label": "img.link.active"}
+{"question": "où est le titre ?", "html": "<ul class='secondary'><li class='item'>Item 520</li></ul>", "label": "ul.secondary li.item"}
+{"question": "clique sur le bouton", "html": "<button class='main active'>Ok</button>", "label": "button.main.active"}
+{"question": "lien du produit", "html": "<div class='product-card'><a href='/item522' class='item'>Lien 522</a></div>", "label": "div.product-card a.item"}
+{"question": "montre la description", "html": "<section class='btn'><span class='main'>Texte 523</span></section>", "label": "section.btn span.main"}
+{"question": "montre-moi le titre", "html": "<h3 class='price-label'><a href='/p524' class='btn'>Produit 524</a></h3>", "label": "h3.price-label a.btn"}
+{"question": "je veux le bouton", "html": "<div class='btn'><button class='link'>Acheter 525</button></div>", "label": "div.btn button.link"}
+{"question": "clique sur le bouton", "html": "<div class='main'><button class='price-label'>Acheter 526</button></div>", "label": "div.main button.price-label"}
+{"question": "quel est le titre ?", "html": "<div class='desc'><h1 class='btn'>Titre 527</h1></div>", "label": "div.desc h1.btn"}
+{"question": "montre la description", "html": "<div class='prod'><p class='secondary'>Description 528</p></div>", "label": "div.prod p.secondary"}
+{"question": "titre du produit", "html": "<ul class='price-label'><li class='item'>Item 529</li></ul>", "label": "ul.price-label li.item"}
+{"question": "montre-moi le titre", "html": "<ul class='main'><li class='link'>Item 530</li></ul>", "label": "ul.main li.link"}
+{"question": "montre la description", "html": "<section class='main'><span class='secondary'>Texte 531</span></section>", "label": "section.main span.secondary"}
+{"question": "je veux le bouton", "html": "<div class='content'><button class='prod'>Acheter 532</button></div>", "label": "div.content button.prod"}
+{"question": "prix du produit", "html": "<p class='secondary'>Prix: <span class='btn'>91€</span></p>", "label": "p.secondary span.btn"}
+{"question": "image du produit", "html": "<img class='secondary highlight' src='i534.png'>", "label": "img.secondary.highlight"}
+{"question": "prix ?", "html": "<p class='item'>Prix: <span class='title'>79€</span></p>", "label": "p.item span.title"}
+{"question": "bouton d'achat", "html": "<button class='price-label primary'>Ok</button>", "label": "button.price-label.primary"}
+{"question": "je veux le lien", "html": "<a href='/path537' class='btn large'>voir</a>", "label": "a.btn.large"}
+{"question": "je veux le bouton", "html": "<button class='content primary'>Ok</button>", "label": "button.content.primary"}
+{"question": "quelle est la description ?", "html": "<section class='prod'><span class='link'>Texte 539</span></section>", "label": "section.prod span.link"}
+{"question": "quel est le titre ?", "html": "<h3 class='content'><a href='/p540' class='title'>Produit 540</a></h3>", "label": "h3.content a.title"}
+{"question": "où est la description ?", "html": "<div class='desc'><p class='desc'>Description 541</p></div>", "label": "div.desc p.desc"}
+{"question": "affiche le prix", "html": "<span class='secondary active'>88 EUR</span>", "label": "span.secondary.active"}
+{"question": "affiche l'image", "html": "<img class='main large' src='i543.png'>", "label": "img.main.large"}
+{"question": "je voudrais le prix", "html": "<p class='desc'>Prix: <span class='item'>147€</span></p>", "label": "p.desc span.item"}
+{"question": "montre-moi la photo", "html": "<figure class='prod'><img src='img545.jpg' class='secondary' alt='Img 545'></figure>", "label": "figure.prod img.secondary"}
+{"question": "lien du produit", "html": "<div class='link'><a href='/item546' class='link'>Lien 546</a></div>", "label": "div.link a.link"}
+{"question": "quel est le lien ?", "html": "<a href='/path547' class='prod primary'>voir</a>", "label": "a.prod.primary"}
+{"question": "affiche le prix", "html": "<p class='content'>Prix: <span class='item'>35€</span></p>", "label": "p.content span.item"}
+{"question": "bouton d'achat", "html": "<div class='main'><button class='link'>Acheter 549</button></div>", "label": "div.main button.link"}
+{"question": "titre du produit", "html": "<div class='main'><h1 class='desc'>Titre 550</h1></div>", "label": "div.main h1.desc"}
+{"question": "titre du produit", "html": "<div class='content'><h1 class='secondary'>Titre 551</h1></div>", "label": "div.content h1.secondary"}
+{"question": "texte descriptif", "html": "<div class='link'><p class='secondary'>Description 552</p></div>", "label": "div.link p.secondary"}
+{"question": "montre-moi le prix", "html": "<p class='prod'>Prix: <span class='secondary'>11€</span></p>", "label": "p.prod span.secondary"}
+{"question": "prix ?", "html": "<p class='content'>Prix: <span class='content'>164€</span></p>", "label": "p.content span.content"}
+{"question": "titre du produit", "html": "<div class='price-label'><h1 class='desc'>Titre 555</h1></div>", "label": "div.price-label h1.desc"}
+{"question": "titre du produit", "html": "<div class='item'><h1 class='main'>Titre 556</h1></div>", "label": "div.item h1.main"}
+{"question": "montre-moi le prix", "html": "<span class='secondary active'>68 EUR</span>", "label": "span.secondary.active"}
+{"question": "où est le lien ?", "html": "<a href='/path558' class='product-card large'>voir</a>", "label": "a.product-card.large"}
+{"question": "bouton d'achat", "html": "<button class='title primary'>Ok</button>", "label": "button.title.primary"}
+{"question": "montre la description", "html": "<div class='title'><p class='secondary'>Description 560</p></div>", "label": "div.title p.secondary"}
+{"question": "prix du produit", "html": "<p class='price-label'>Prix: <span class='prod'>176€</span></p>", "label": "p.price-label span.prod"}
+{"question": "texte descriptif", "html": "<section class='desc'><span class='desc'>Texte 562</span></section>", "label": "section.desc span.desc"}
+{"question": "montre-moi la photo", "html": "<figure class='price-label'><img src='img563.jpg' class='secondary' alt='Img 563'></figure>", "label": "figure.price-label img.secondary"}
+{"question": "montre-moi le prix", "html": "<span class='title primary'>159 EUR</span>", "label": "span.title.primary"}
+{"question": "montre-moi le prix", "html": "<span class='price-label primary'>39 EUR</span>", "label": "span.price-label.primary"}
+{"question": "où est le bouton ?", "html": "<div class='content'><button class='prod'>Acheter 566</button></div>", "label": "div.content button.prod"}
+{"question": "titre du produit", "html": "<h3 class='content'><a href='/p567' class='main'>Produit 567</a></h3>", "label": "h3.content a.main"}
+{"question": "où est le titre ?", "html": "<div class='item'><h1 class='item'>Titre 568</h1></div>", "label": "div.item h1.item"}
+{"question": "lien vers la page", "html": "<div class='product-card'><a href='/item569' class='secondary'>Lien 569</a></div>", "label": "div.product-card a.secondary"}
+{"question": "montre-moi le titre", "html": "<h3 class='main'><a href='/p570' class='price-label'>Produit 570</a></h3>", "label": "h3.main a.price-label"}
+{"question": "affiche le prix", "html": "<p class='secondary'>Prix: <span class='item'>196€</span></p>", "label": "p.secondary span.item"}
+{"question": "clique sur le bouton", "html": "<div class='content'><button class='secondary'>Acheter 572</button></div>", "label": "div.content button.secondary"}
+{"question": "clique sur le bouton", "html": "<div class='main'><button class='secondary'>Acheter 573</button></div>", "label": "div.main button.secondary"}
+{"question": "quel est le titre ?", "html": "<ul class='main'><li class='main'>Item 574</li></ul>", "label": "ul.main li.main"}
+{"question": "où est le titre ?", "html": "<h3 class='item'><a href='/p575' class='price-label'>Produit 575</a></h3>", "label": "h3.item a.price-label"}
+{"question": "quel est le titre ?", "html": "<ul class='price-label'><li class='main'>Item 576</li></ul>", "label": "ul.price-label li.main"}
+{"question": "je veux le bouton", "html": "<div class='content'><button class='product-card'>Acheter 577</button></div>", "label": "div.content button.product-card"}
+{"question": "montre-moi le titre", "html": "<div class='desc'><h1 class='desc'>Titre 578</h1></div>", "label": "div.desc h1.desc"}
+{"question": "affiche le prix", "html": "<p class='item'>Prix: <span class='main'>73€</span></p>", "label": "p.item span.main"}
+{"question": "je voudrais le prix", "html": "<p class='content'>Prix: <span class='title'>74€</span></p>", "label": "p.content span.title"}
+{"question": "prix ?", "html": "<span class='prod primary'>191 EUR</span>", "label": "span.prod.primary"}
+{"question": "montre la description", "html": "<section class='main'><span class='secondary'>Texte 582</span></section>", "label": "section.main span.secondary"}
+{"question": "titre du produit", "html": "<h3 class='item'><a href='/p583' class='content'>Produit 583</a></h3>", "label": "h3.item a.content"}
+{"question": "je veux le titre", "html": "<ul class='price-label'><li class='item'>Item 584</li></ul>", "label": "ul.price-label li.item"}
+{"question": "montre-moi le lien", "html": "<div class='desc'><a href='/item585' class='secondary'>Lien 585</a></div>", "label": "div.desc a.secondary"}
+{"question": "bouton d'achat", "html": "<button class='desc large'>Ok</button>", "label": "button.desc.large"}
+{"question": "affiche la description", "html": "<section class='prod'><span class='link'>Texte 587</span></section>", "label": "section.prod span.link"}
+{"question": "affiche l'image", "html": "<figure class='desc'><img src='img588.jpg' class='price-label' alt='Img 588'></figure>", "label": "figure.desc img.price-label"}
+{"question": "je veux le titre", "html": "<h3 class='prod'><a href='/p589' class='desc'>Produit 589</a></h3>", "label": "h3.prod a.desc"}
+{"question": "titre du produit", "html": "<h3 class='btn'><a href='/p590' class='product-card'>Produit 590</a></h3>", "label": "h3.btn a.product-card"}
+{"question": "affiche la description", "html": "<section class='item'><span class='secondary'>Texte 591</span></section>", "label": "section.item span.secondary"}
+{"question": "montre la description", "html": "<div class='main'><p class='link'>Description 592</p></div>", "label": "div.main p.link"}
+{"question": "je veux le titre", "html": "<div class='item'><h1 class='link'>Titre 593</h1></div>", "label": "div.item h1.link"}
+{"question": "photo", "html": "<img class='secondary highlight' src='i594.png'>", "label": "img.secondary.highlight"}
+{"question": "je veux le lien", "html": "<a href='/path595' class='title small'>voir</a>", "label": "a.title.small"}
+{"question": "bouton d'achat", "html": "<button class='btn active'>Ok</button>", "label": "button.btn.active"}
+{"question": "texte descriptif", "html": "<section class='desc'><span class='secondary'>Texte 597</span></section>", "label": "section.desc span.secondary"}
+{"question": "titre du produit", "html": "<div class='item'><h1 class='desc'>Titre 598</h1></div>", "label": "div.item h1.desc"}
+{"question": "quel est le prix ?", "html": "<span class='price-label highlight'>144 EUR</span>", "label": "span.price-label.highlight"}

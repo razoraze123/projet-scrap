@@ -1,32 +1,38 @@
-"""Petite interface Tkinter pour tester le classifieur."""
+"""Interface Tkinter pour tester la prédiction de sélecteur CSS."""
 
 import tkinter as tk
-from predictor import predict_intent
+from html_selector import predire_selecteur
 
 
 def on_predict():
-    text = entry.get()
-    if not text.strip():
+    question = question_entry.get()
+    html = html_text.get("1.0", tk.END)
+    if not question.strip() or not html.strip():
         result_var.set("")
         return
-    label = predict_intent(text)
-    result_var.set(label)
+    selector = predire_selecteur(question, html)
+    result_var.set(f"\U0001F9E0 Sélecteur prédit : {selector}")
 
 
 def main() -> None:
-    global entry, result_var
+    global question_entry, html_text, result_var
 
     root = tk.Tk()
-    root.title("\U0001F9E0 Intelligence HTML – Assistant IA")
+    root.title("\U0001F9E0 Prédicteur de sélecteur CSS")
 
-    entry = tk.Entry(root, width=50)
-    entry.pack(padx=10, pady=10)
+    tk.Label(root, text="Question:").pack(anchor="w", padx=10)
+    question_entry = tk.Entry(root, width=60)
+    question_entry.pack(fill="x", padx=10, pady=5)
 
-    button = tk.Button(root, text="Pr\u00e9dire", command=on_predict)
+    tk.Label(root, text="Bloc HTML:").pack(anchor="w", padx=10)
+    html_text = tk.Text(root, width=60, height=10)
+    html_text.pack(fill="both", padx=10, pady=5)
+
+    button = tk.Button(root, text="Prédire", command=on_predict)
     button.pack(pady=5)
 
     result_var = tk.StringVar()
-    result_label = tk.Label(root, textvariable=result_var, font=("Helvetica", 14))
+    result_label = tk.Label(root, textvariable=result_var, font=("Helvetica", 12))
     result_label.pack(pady=10)
 
     root.mainloop()
