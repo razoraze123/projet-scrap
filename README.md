@@ -1,6 +1,6 @@
 # CSS Selector Generator
 
-This project provides a command-line tool that extracts the most stable CSS selector from an HTML snippet. A small web interface is also included for interactive use.
+This project provides a command-line tool that analyses an HTML snippet and now proposes several CSS selectors ranked by relevance. A small web interface is also included for interactive use.
 
 ## Requirements
 
@@ -16,13 +16,15 @@ pip install -r requirements.txt
 
 ## Command Line Usage
 
-Generate a selector from a file:
+Generate selector suggestions from a file:
 
 ```bash
 python css_selector_generator.py path/to/file.html
 ```
 
-If no file is provided, HTML is read from standard input.
+If no file is provided, HTML is read from standard input. The script then
+prints several CSS selectors with short explanations and highlights the
+recommended one.
 
 ## Web Interface
 
