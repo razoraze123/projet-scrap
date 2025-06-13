@@ -13,9 +13,11 @@ Ce fichier récapitule rapidement les étapes principales du projet.
 3. Lancez l'entraînement des modèles :
 
     ```bash
-    python src/train_classifier.py
-    python src/train_html_selector_model.py
+    python -m src.train_classifier
+    python -m src.train_html_selector_model
     ```
+    (les commandes `python cli.py train-classifier` et
+    `python cli.py train-selector` sont équivalentes)
 
     Les fichiers générés seront sauvegardés dans `model/`.
 
