@@ -1,0 +1,8 @@
+# Configuration d'exemple pour apprentissage_pour_ia.py
+# Chemins
+html_selector_dataset: data/html_selector_dataset.jsonl
+model_output_dir: model/html_selector
+# Hyperparametres
+batch_size: 8
+epochs: 3
+learning_rate: 5e-5

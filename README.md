@@ -46,3 +46,11 @@ python src/interface_gui.py
 ```
 
 Entrez une question et cliquez sur **Prédire** : le label prédit s'affichera.
+
+### Interface d'apprentissage
+
+Lancement de l'application de suivi d'entraînement :
+
+```bash
+python apprentissage_pour_ia.py --config config.yaml
+```
