@@ -53,8 +53,10 @@ Entrez une question et cliquez sur **Prédire** : le label prédit s'affichera.
 
 Une version utilisant **PySide6** est aussi disponible :
 ```bash
-python src/interface_pyside6.py
+python -m src.interface_pyside6
 ```
+*Le modèle de sélecteur doit être entraîné au préalable ; consultez la
+section dédiée à l'entraînement.*
 
 ### Interface d'apprentissage
 
