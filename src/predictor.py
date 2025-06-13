@@ -1,12 +1,13 @@
 """Utilities for loading the trained intent classifier and predicting labels."""
 
 from pathlib import Path
+import config
 
 import torch
 from transformers import AutoModelForSequenceClassification, DistilBertTokenizerFast
 from src.memoire_generale import ajouter_interaction
 
-MODEL_DIR = Path(__file__).resolve().parent.parent / "model" / "trained_model"
+MODEL_DIR = config.CLASSIFIER_MODEL_DIR
 if not MODEL_DIR.exists():
     raise FileNotFoundError(f"Trained model directory not found: {MODEL_DIR}")
 

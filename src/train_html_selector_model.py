@@ -1,4 +1,5 @@
 from pathlib import Path
+import config
 
 from datasets import load_dataset
 from transformers import (
@@ -11,7 +12,7 @@ from sklearn.metrics import accuracy_score
 
 
 def main() -> None:
-    data_path = Path(__file__).resolve().parents[1] / "data" / "html_selector_dataset.jsonl"
+    data_path = config.HTML_SELECTOR_FILE
     if not data_path.is_file():
         raise FileNotFoundError(f"Dataset not found at {data_path}")
     dataset = load_dataset("json", data_files=str(data_path))
@@ -41,10 +42,10 @@ def main() -> None:
     )
 
     args = TrainingArguments(
-        output_dir="model/html_selector",
+        output_dir=str(config.HTML_SELECTOR_MODEL_DIR),
         num_train_epochs=3,
-        per_device_train_batch_size=8,
-        learning_rate=5e-5,
+        per_device_train_batch_size=config.TRAIN_BATCH_SIZE,
+        learning_rate=config.LEARNING_RATE,
         logging_dir="logs",
         logging_steps=10,
         save_steps=100,

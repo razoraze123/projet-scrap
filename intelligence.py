@@ -1,11 +1,20 @@
 """Analyse d'une question en langage naturel."""
 
-from transformers import pipeline
+try:
+    from transformers import pipeline
+except Exception:  # pragma: no cover - optional dependency
+    pipeline = None
 
 MODEL_NAME = "distilbert-base-multilingual-cased"
 LABELS = ["titre", "description", "prix", "image", "lien", "bouton"]
 
-_classifier = pipeline("zero-shot-classification", model=MODEL_NAME)
+if pipeline is not None:
+    try:
+        _classifier = pipeline("zero-shot-classification", model=MODEL_NAME)
+    except Exception:  # pragma: no cover - model loading may fail
+        _classifier = None
+else:  # pragma: no cover - transformers absent
+    _classifier = None
 
 _KEYWORDS = {
     "titre": ["titre", "title"],
@@ -23,6 +32,10 @@ def analyser_question(question: str, debug: bool = True) -> str:
     for label, words in _KEYWORDS.items():
         if any(w in q for w in words):
             return label
+
+    if _classifier is None:
+        # Fallback when transformers or model is unavailable
+        return LABELS[0]
 
     result = _classifier(question, candidate_labels=LABELS)
     label = result["labels"][0]
