@@ -1,0 +1,200 @@
+{"html": "<header class=\"site-header\"><h1>Site Title</h1></header>"}
+{"html": "<nav class=\"primary-nav\"><ul><li><a href=\"#home\">Home</a></li><li><a href=\"#services\">Services</a></li></ul></nav>"}
+{"html": "<section id=\"hero-banner\"><div class=\"content\"><h2>Welcome</h2><p>Discover our platform</p></div></section>"}
+{"html": "<article class=\"feature\"><header><h3>Feature Highlight</h3></header><p>Learn more about this feature.</p></article>"}
+{"html": "<aside class=\"sidebar\"><h4>Related</h4><ul><li><a href=\"#\">Item A</a></li><li><a href=\"#\">Item B</a></li></ul></aside>"}
+{"html": "<div class=\"card\"><img src=\"avatar.png\" alt=\"Profile\"><p>Profile Overview</p></div>"}
+{"html": "<form id=\"signup-form\" action=\"/signup\"><label for=\"email\">Email</label><input type=\"email\" id=\"email\" name=\"email\"><button type=\"submit\">Sign Up</button></form>"}
+{"html": "<table class=\"pricing-table\"><tr><th>Plan</th><th>Price</th></tr><tr><td>Basic</td><td>$9</td></tr></table>"}
+{"html": "<footer class=\"page-footer\"><small>&copy; 2024 Example Co.</small></footer>"}
+{"html": "<div class=\"alert\"><span class=\"message\">Updates available</span><button class=\"close\">x</button></div>"}
+{"html": "<header class=\"article-header\"><h2>News Title</h2><time datetime=\"2024-01-01\">Jan 1, 2024</time></header>"}
+{"html": "<nav aria-label=\"breadcrumb\"><ol><li><a href=\"/\">Home</a></li><li>Library</li></ol></nav>"}
+{"html": "<section class=\"gallery\"><figure><img src=\"photo1.jpg\" alt=\"Photo 1\"><figcaption>Caption One</figcaption></figure></section>"}
+{"html": "<div class=\"modal\"><div class=\"modal-content\"><p>Modal Text</p><button>Close</button></div></div>"}
+{"html": "<article class=\"blog-post\"><p>Blog introduction text here.</p></article>"}
+{"html": "<aside id=\"ad-spot\"><a href=\"#ad\"><img src=\"ad.jpg\" alt=\"Advertisement\"></a></aside>"}
+{"html": "<div class=\"stats\"><span class=\"number\">1,000</span><span class=\"label\">Users</span></div>"}
+{"html": "<form class=\"search-form\"><input type=\"search\" placeholder=\"Search...\"><button>Find</button></form>"}
+{"html": "<table id=\"schedule\"><caption>Weekly Schedule</caption><tr><th>Day</th><th>Event</th></tr><tr><td>Monday</td><td>Meeting</td></tr></table>"}
+{"html": "<footer><nav class=\"footer-nav\"><ul><li><a href=\"#privacy\">Privacy</a></li><li><a href=\"#terms\">Terms</a></li></ul></nav></footer>"}
+{"html": "<header><h1>Dashboard</h1></header>"}
+{"html": "<nav class=\"tabs\"><button class=\"tab\" data-target=\"#tab1\">Tab1</button><button class=\"tab\" data-target=\"#tab2\">Tab2</button></nav>"}
+{"html": "<section class=\"stats-section\"><h2>Statistics</h2><div class=\"stat-item\">42</div></section>"}
+{"html": "<article><h3>Article 1</h3><p>Content for article 1.</p></article>"}
+{"html": "<aside><h4>Tips</h4><p>Tip of the day.</p></aside>"}
+{"html": "<div class=\"thumbnail\"><img src=\"thumb.jpg\" alt=\"Thumbnail\"><span>Thumbnail label</span></div>"}
+{"html": "<form id=\"contact-form\"><label>Name</label><input type=\"text\"><label>Message</label><textarea></textarea></form>"}
+{"html": "<table class=\"list-table\"><tr><td>Row A</td><td>Data A</td></tr><tr><td>Row B</td><td>Data B</td></tr></table>"}
+{"html": "<footer id=\"main-footer\"><p>Footer information.</p></footer>"}
+{"html": "<div id=\"cookie-banner\"><p>This site uses cookies.</p><button>Acknowledge</button></div>"}
+{"html": "<header class=\"app-header\"><h2>Application Header</h2></header>"}
+{"html": "<nav class=\"secondary-nav\"><ul><li><a href=\"#faq\">FAQ</a></li><li><a href=\"#support\">Support</a></li></ul></nav>"}
+{"html": "<section><h3>Section Title</h3><p>Section content goes here.</p></section>"}
+{"html": "<article><header><h4>Article Title</h4></header><p>Article excerpt.</p></article>"}
+{"html": "<aside class=\"notes\"><p>Side note content.</p></aside>"}
+{"html": "<div class=\"profile\"><img src=\"user.jpg\" alt=\"User\"><span>Username</span></div>"}
+{"html": "<form action=\"/login\"><input type=\"text\" placeholder=\"Username\"><input type=\"password\" placeholder=\"Password\"><button>Login</button></form>"}
+{"html": "<table><tr><th>Header</th></tr><tr><td>Data</td></tr></table>"}
+{"html": "<footer><p>Contact info here.</p></footer>"}
+{"html": "<div class=\"popup\"><span>Popup message</span><button>Close</button></div>"}
+{"html": "<header><h1>Portfolio</h1></header>"}
+{"html": "<nav class=\"breadcrumb\"><ul><li><a href=\"/\">Home</a></li><li><a href=\"/portfolio\">Portfolio</a></li></ul></nav>"}
+{"html": "<section class=\"portfolio-item\"><img src=\"project.jpg\" alt=\"Project Image\"><h3>Project Title</h3></section>"}
+{"html": "<article><p>Short post snippet.</p><a href=\"#readmore\">Read more</a></article>"}
+{"html": "<aside><ul><li>Archive 2023</li><li>Archive 2024</li></ul></aside>"}
+{"html": "<div class=\"rating\"><span>Rating:</span><span class=\"stars\">★★★★☆</span></div>"}
+{"html": "<form id=\"newsletter\"><input type=\"email\" placeholder=\"Your email\"><button>Subscribe</button></form>"}
+{"html": "<table class=\"inventory\"><tr><th>Item</th><th>Qty</th></tr><tr><td>Pencil</td><td>100</td></tr></table>"}
+{"html": "<footer class=\"credits\"><p>Credits to authors.</p></footer>"}
+{"html": "<div class=\"notification\"><p>You have new messages.</p></div>"}
+{"html": "<header class=\"product-header\"><h2>Product Name</h2></header>"}
+{"html": "<nav class=\"product-nav\"><ul><li><a href=\"#details\">Details</a></li><li><a href=\"#reviews\">Reviews</a></li></ul></nav>"}
+{"html": "<section class=\"product-details\"><p>Here are product details.</p></section>"}
+{"html": "<article class=\"review\"><h4>Review Title</h4><p>A quick review.</p></article>"}
+{"html": "<aside class=\"ads\"><img src=\"adbanner.jpg\" alt=\"Ad\"></aside>"}
+{"html": "<div class=\"price-tag\">$19.99</div>"}
+{"html": "<form class=\"cart-form\"><input type=\"number\" value=\"1\"><button>Add to Cart</button></form>"}
+{"html": "<table class=\"specs\"><tr><th>Spec</th><th>Value</th></tr><tr><td>Weight</td><td>1kg</td></tr></table>"}
+{"html": "<footer class=\"product-footer\"><a href=\"#top\">Back to top</a></footer>"}
+{"html": "<div class=\"toast\"><span>Item added to cart</span></div>"}
+{"html": "<header class=\"dashboard-header\"><h1>Dashboard</h1></header>"}
+{"html": "<nav class=\"user-nav\"><ul><li><a href=\"#profile\">Profile</a></li><li><a href=\"#settings\">Settings</a></li></ul></nav>"}
+{"html": "<section class=\"overview\"><p>Overview metrics displayed here.</p></section>"}
+{"html": "<article class=\"update\"><h3>System Update</h3><p>Update details.</p></article>"}
+{"html": "<aside class=\"user-info\"><img src=\"avatar.jpg\" alt=\"Avatar\"><p>Logged in as Admin</p></aside>"}
+{"html": "<div class=\"widget\"><span>Widget content</span></div>"}
+{"html": "<form id=\"filter-form\"><select name=\"category\"><option>All</option><option>Completed</option></select></form>"}
+{"html": "<table class=\"data-table\"><tr><td>Row1</td><td>Value1</td></tr><tr><td>Row2</td><td>Value2</td></tr></table>"}
+{"html": "<footer class=\"dashboard-footer\"><p>Last updated today</p></footer>"}
+{"html": "<div class=\"message-banner\"><p>Maintenance notice</p></div>"}
+{"html": "<header class=\"blog-header\"><h1>My Blog</h1></header>"}
+{"html": "<nav class=\"pagination\"><button>Previous</button><span>Page 1</span><button>Next</button></nav>"}
+{"html": "<section class=\"post-list\"><article><h2>First Post</h2><p>Intro text</p></article></section>"}
+{"html": "<article class=\"comment\"><p>User comment text</p></article>"}
+{"html": "<aside class=\"tags\"><span>#web</span><span>#design</span></aside>"}
+{"html": "<div class=\"avatar\"><img src=\"user1.jpg\" alt=\"User1\"><span>User1</span></div>"}
+{"html": "<form id=\"comment-form\"><textarea placeholder=\"Add a comment\"></textarea><button>Submit</button></form>"}
+{"html": "<table class=\"comments-table\"><tr><td>Commenter</td><td>Message</td></tr></table>"}
+{"html": "<footer class=\"blog-footer\"><p>Powered by BlogEngine</p></footer>"}
+{"html": "<div class=\"scroll-to-top\"><a href=\"#top\">↑</a></div>"}
+{"html": "<header class=\"page-header\"><h1>Welcome</h1></header>"}
+{"html": "<nav class=\"top-links\"><ul><li><a href=\"/login\">Login</a></li></ul></nav>"}
+{"html": "<section class=\"intro\"><p>This is an introduction section.</p></section>"}
+{"html": "<article class=\"news-item\"><h2>Breaking News</h2><p>News content here.</p></article>"}
+{"html": "<aside class=\"social-links\"><a href=\"#facebook\">Facebook</a><a href=\"#twitter\">Twitter</a></aside>"}
+{"html": "<div class=\"image-box\"><img src=\"picture.jpg\" alt=\"Picture\"><span>Image caption</span></div>"}
+{"html": "<form method=\"post\" class=\"upload-form\" enctype=\"multipart/form-data\"><input type=\"file\" name=\"file\"><button>Upload</button></form>"}
+{"html": "<table class=\"responsive\"><tr><th>Column1</th><th>Column2</th></tr></table>"}
+{"html": "<footer class=\"copyright\"><p>&copy; 2024 Example</p></footer>"}
+{"html": "<div class=\"hint\"><span>Hover for details</span></div>"}
+{"html": "<header><h2>Services</h2></header>"}
+{"html": "<nav class=\"service-nav\"><ul><li><a href=\"#design\">Design</a></li><li><a href=\"#development\">Development</a></li></ul></nav>"}
+{"html": "<section class=\"service\"><h3>Design Services</h3><p>Our design offering.</p></section>"}
+{"html": "<article class=\"testimonial\"><blockquote>Great service!</blockquote><cite>Customer</cite></article>"}
+{"html": "<aside class=\"extra-info\"><p>Additional service info.</p></aside>"}
+{"html": "<div class=\"icon\"><img src=\"icon.png\" alt=\"Icon\">Icon text</div>"}
+{"html": "<form class=\"contact\"><label for=\"name\">Name</label><input id=\"name\" type=\"text\"><button>Send</button></form>"}
+{"html": "<table><tr><td>Feature 1</td><td>Yes</td></tr><tr><td>Feature 2</td><td>No</td></tr></table>"}
+{"html": "<footer><p>Service footer info.</p></footer>"}
+{"html": "<div class=\"promo-banner\"><p>Special offer inside</p></div>"}
+{"html": "<header><h1>Event</h1></header>"}
+{"html": "<nav class=\"event-nav\"><ul><li><a href=\"#schedule\">Schedule</a></li><li><a href=\"#speakers\">Speakers</a></li></ul></nav>"}
+{"html": "<section class=\"event-intro\"><p>Welcome to our event.</p></section>"}
+{"html": "<article class=\"speaker\"><h3>Keynote Speaker</h3><p>Bio snippet.</p></article>"}
+{"html": "<aside class=\"sponsor\"><img src=\"sponsor.png\" alt=\"Sponsor\"></aside>"}
+{"html": "<div class=\"ticket-price\">$99</div>"}
+{"html": "<form class=\"registration\"><input type=\"text\" placeholder=\"Full Name\"><button>Register</button></form>"}
+{"html": "<table class=\"agenda\"><tr><td>9am</td><td>Opening</td></tr></table>"}
+{"html": "<footer class=\"event-footer\"><p>Thank you for attending</p></footer>"}
+{"html": "<div class=\"countdown\"><span>Starts in</span><span id=\"timer\">10d</span></div>"}
+{"html": "<header class=\"shop-header\"><h2>Online Shop</h2></header>"}
+{"html": "<nav class=\"categories\"><ul><li><a href=\"#clothing\">Clothing</a></li><li><a href=\"#accessories\">Accessories</a></li></ul></nav>"}
+{"html": "<section class=\"product-item\"><img src=\"product.jpg\" alt=\"Product\"><h3>Product Name</h3><span class=\"price\">$29.99</span></section>"}
+{"html": "<article class=\"review-item\"><p>Excellent!</p><footer><small>By User</small></footer></article>"}
+{"html": "<aside class=\"filter\"><label><input type=\"checkbox\"> In Stock</label></aside>"}
+{"html": "<div class=\"cart-summary\"><p>Items in cart: 2</p></div>"}
+{"html": "<form class=\"checkout\"><input type=\"text\" placeholder=\"Address\"><button>Checkout</button></form>"}
+{"html": "<table class=\"order-table\"><tr><th>Product</th><th>Qty</th></tr><tr><td>Shirt</td><td>2</td></tr></table>"}
+{"html": "<footer class=\"shop-footer\"><p>Free shipping on orders over $50</p></footer>"}
+{"html": "<div class=\"sale-tag\">Sale!</div>"}
+{"html": "<header class=\"forum-header\"><h1>Community Forum</h1></header>"}
+{"html": "<nav class=\"forum-nav\"><ul><li><a href=\"#topics\">Topics</a></li><li><a href=\"#members\">Members</a></li></ul></nav>"}
+{"html": "<section class=\"topic\"><h3>Latest Topic</h3><p>Discussion starter text.</p></section>"}
+{"html": "<article class=\"reply\"><p>I agree with this point.</p></article>"}
+{"html": "<aside class=\"user-status\"><span>Online</span></aside>"}
+{"html": "<div class=\"like-button\"><button>Like</button><span>10</span></div>"}
+{"html": "<form class=\"new-post\"><input type=\"text\" placeholder=\"Title\"><textarea placeholder=\"Content\"></textarea></form>"}
+{"html": "<table class=\"user-table\"><tr><td>User1</td><td>Posts: 5</td></tr></table>"}
+{"html": "<footer class=\"forum-footer\"><p>Forum rules apply.</p></footer>"}
+{"html": "<div class=\"badge\">Moderator</div>"}
+{"html": "<header class=\"profile-header\"><h2>User Profile</h2></header>"}
+{"html": "<nav class=\"profile-tabs\"><ul><li><a href=\"#overview\">Overview</a></li><li><a href=\"#settings\">Settings</a></li></ul></nav>"}
+{"html": "<section class=\"profile-overview\"><p>Profile summary information.</p></section>"}
+{"html": "<article class=\"activity-log\"><p>Latest activity goes here.</p></article>"}
+{"html": "<aside class=\"followers\"><p>Followers: 100</p></aside>"}
+{"html": "<div class=\"avatar-upload\"><img src=\"avatar-default.jpg\" alt=\"Default\"><input type=\"file\"></div>"}
+{"html": "<form id=\"update-profile\"><input type=\"text\" value=\"Username\"><button>Update</button></form>"}
+{"html": "<table class=\"history\"><tr><th>Date</th><th>Action</th></tr><tr><td>Today</td><td>Logged in</td></tr></table>"}
+{"html": "<footer class=\"profile-footer\"><small>Member since 2020</small></footer>"}
+{"html": "<div class=\"status-message\">Profile updated successfully.</div>"}
+{"html": "<header class=\"landing-header\"><h1>Welcome to Our Site</h1></header>"}
+{"html": "<nav class=\"landing-nav\"><a href=\"#learn\">Learn</a><a href=\"#join\">Join</a></nav>"}
+{"html": "<section class=\"features\"><ul><li>Fast</li><li>Secure</li></ul></section>"}
+{"html": "<article class=\"feature-detail\"><h3>Fast</h3><p>Our service is fast.</p></article>"}
+{"html": "<aside class=\"cta\"><a href=\"#signup\" class=\"button\">Sign Up</a></aside>"}
+{"html": "<div class=\"testimonial\"><blockquote>Great experience!</blockquote><cite>Happy User</cite></div>"}
+{"html": "<form class=\"trial-form\"><input type=\"email\" placeholder=\"Email\"><button>Start Trial</button></form>"}
+{"html": "<table class=\"comparison\"><tr><th>Plan</th><th>Price</th></tr><tr><td>Basic</td><td>$5</td></tr></table>"}
+{"html": "<footer class=\"landing-footer\"><p>Contact us for more info</p></footer>"}
+{"html": "<div class=\"cookie-notice\"><p>We use cookies.</p><button>Accept</button></div>"}
+{"html": "<header><h1>News Portal</h1></header>"}
+{"html": "<nav class=\"news-nav\"><ul><li><a href=\"#latest\">Latest</a></li><li><a href=\"#trending\">Trending</a></li></ul></nav>"}
+{"html": "<section class=\"headline\"><h2>Top Story</h2><p>Summary of the top story.</p></section>"}
+{"html": "<article class=\"news-article\"><p>Full article text.</p></article>"}
+{"html": "<aside class=\"related\"><ul><li><a href=\"#related1\">Related 1</a></li><li><a href=\"#related2\">Related 2</a></li></ul></aside>"}
+{"html": "<div class=\"weather-widget\"><span>72°F</span></div>"}
+{"html": "<form class=\"newsletter-signup\"><input type=\"email\" placeholder=\"Email\"><button>Join</button></form>"}
+{"html": "<table class=\"stock-table\"><tr><th>Company</th><th>Price</th></tr></table>"}
+{"html": "<footer class=\"news-footer\"><p>© News Corp.</p></footer>"}
+{"html": "<div class=\"breaking-alert\">Breaking News Alert</div>"}
+{"html": "<header class=\"portfolio-header\"><h1>Portfolio Showcase</h1></header>"}
+{"html": "<nav class=\"portfolio-nav\"><ul><li><a href=\"#web\">Web</a></li><li><a href=\"#graphic\">Graphic</a></li></ul></nav>"}
+{"html": "<section class=\"portfolio-gallery\"><figure><img src=\"design.jpg\" alt=\"Design\"><figcaption>Design project</figcaption></figure></section>"}
+{"html": "<article class=\"case-study\"><h2>Case Study</h2><p>Project description.</p></article>"}
+{"html": "<aside class=\"portfolio-sidebar\"><p>Client testimonials here.</p></aside>"}
+{"html": "<div class=\"skills\"><span>HTML</span><span>CSS</span></div>"}
+{"html": "<form class=\"contact-me\"><input type=\"text\" placeholder=\"Your Name\"><button>Send</button></form>"}
+{"html": "<table class=\"project-table\"><tr><th>Project</th><th>Status</th></tr></table>"}
+{"html": "<footer class=\"portfolio-footer\"><p>© My Portfolio</p></footer>"}
+{"html": "<div class=\"scroll-hint\">Scroll down</div>"}
+{"html": "<header class=\"restaurant-header\"><h1>Restaurant Name</h1></header>"}
+{"html": "<nav class=\"menu-nav\"><ul><li><a href=\"#menu\">Menu</a></li><li><a href=\"#reserve\">Reserve</a></li></ul></nav>"}
+{"html": "<section class=\"menu-section\"><h2>Our Menu</h2><ul><li>Pasta</li><li>Pizza</li></ul></section>"}
+{"html": "<article class=\"chef-special\"><h3>Chef's Special</h3><p>Dish description.</p></article>"}
+{"html": "<aside class=\"opening-hours\"><p>Open 9am-9pm</p></aside>"}
+{"html": "<div class=\"reservation-callout\"><a href=\"#reserve\">Book a Table</a></div>"}
+{"html": "<form class=\"reservation-form\"><input type=\"text\" placeholder=\"Name\"><input type=\"date\"><button>Reserve</button></form>"}
+{"html": "<table class=\"pricing\"><tr><td>Lunch</td><td>$15</td></tr><tr><td>Dinner</td><td>$25</td></tr></table>"}
+{"html": "<footer class=\"restaurant-footer\"><p>Visit us downtown</p></footer>"}
+{"html": "<div class=\"map\"><iframe src=\"map.html\"></iframe></div>"}
+{"html": "<header class=\"course-header\"><h1>Course Title</h1></header>"}
+{"html": "<nav class=\"course-nav\"><ul><li><a href=\"#overview\">Overview</a></li><li><a href=\"#syllabus\">Syllabus</a></li></ul></nav>"}
+{"html": "<section class=\"overview-section\"><p>Course overview text.</p></section>"}
+{"html": "<article class=\"lesson\"><h2>Lesson 1</h2><p>Lesson summary.</p></article>"}
+{"html": "<aside class=\"resources\"><a href=\"#pdf\">Download PDF</a></aside>"}
+{"html": "<div class=\"progress\"><progress value=\"30\" max=\"100\"></progress></div>"}
+{"html": "<form class=\"quiz\"><input type=\"radio\" name=\"q1\">Option A<input type=\"radio\" name=\"q1\">Option B</form>"}
+{"html": "<table class=\"gradebook\"><tr><th>Student</th><th>Grade</th></tr><tr><td>Alice</td><td>A</td></tr></table>"}
+{"html": "<footer class=\"course-footer\"><p>Good luck with your studies</p></footer>"}
+{"html": "<div class=\"certificate\"><span>Certificate of Completion</span></div>"}
+{"html": "<header class=\"app-header\"><h1>My App</h1></header>"}
+{"html": "<nav class=\"app-sidebar\"><ul><li><a href=\"#dashboard\">Dashboard</a></li></ul></nav>"}
+{"html": "<section class=\"dashboard-panel\"><p>Panel information.</p></section>"}
+{"html": "<article class=\"update-note\"><p>App update notes.</p></article>"}
+{"html": "<aside class=\"support\"><a href=\"#help\">Help Center</a></aside>"}
+{"html": "<div class=\"toggle-switch\"><label><input type=\"checkbox\"> Dark Mode</label></div>"}
+{"html": "<form class=\"feedback-form\"><textarea name=\"feedback\"></textarea><button>Send</button></form>"}
+{"html": "<table class=\"log\"><tr><th>Time</th><th>Action</th></tr><tr><td>10:00</td><td>Login</td></tr></table>"}
+{"html": "<footer class=\"app-footer\"><p>App version 1.0</p></footer>"}
+{"html": "<div class=\"notification-bar\"><span>New features available!</span></div>"}
