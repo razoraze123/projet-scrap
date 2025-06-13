@@ -18,6 +18,7 @@ Toutes les actions principales sont accessibles via `cli.py` :
 python cli.py generate         # génère un dataset HTML
 python cli.py train-classifier # entraîne le classifieur
 python cli.py train-selector   # entraîne le modèle de sélecteur
+python cli.py predict-selector-html page.html # prédit le sélecteur
 python cli.py serve            # lance le serveur Flask
 ```
 
@@ -37,6 +38,7 @@ Le modèle et le tokenizer seront sauvegardés dans `model/trained_model/`.
 
 ```bash
 python src/predictor.py "Montre-moi le prix"
+cat page.html | python src/html_only_predictor.py
 ```
 
 ## Interface graphique
