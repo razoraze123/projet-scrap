@@ -51,6 +51,11 @@ python src/interface_gui.py
 
 Entrez une question et cliquez sur **Prédire** : le label prédit s'affichera.
 
+Une version utilisant **PySide6** est aussi disponible :
+```bash
+python src/interface_pyside6.py
+```
+
 ### Interface d'apprentissage
 
 Lancement de l'application de suivi d'entraînement :
