@@ -35,12 +35,14 @@ Lancement d’un entraînement
 2. Vérifier/obtenir les jeux de données générés (`data/`).
 3. Entraîner le classifieur de questions :
    ```bash
-   python src/train_classifier.py
+   python -m src.train_classifier
    ```
+   (ou `python cli.py train-classifier`)
 4. Entraîner le modèle question + HTML → sélecteur :
    ```bash
-   python src/train_html_selector_model.py
+   python -m src.train_html_selector_model
    ```
+   (ou `python cli.py train-selector`)
    Les modèles et tokenizers sont enregistrés dans `model/`.
 
 Points de vigilance

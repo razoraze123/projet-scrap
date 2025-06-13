@@ -26,8 +26,10 @@ python cli.py serve            # lance le serveur Flask
 Le dataset se trouve dans `data/intents.jsonl`. Lancez l'entraînement (CPU) :
 
 ```bash
-python src/train_classifier.py
+python -m src.train_classifier
 ```
+
+Cette commande peut aussi être exécutée via `python cli.py train-classifier`.
 
 Le modèle et le tokenizer seront sauvegardés dans `model/trained_model/`.
 
