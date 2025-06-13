@@ -31,6 +31,21 @@ def train_selector_html():
     from src import train_html_only_selector_model as thh
     thh.main()
 
+
+@cli.command('predict-selector-html')
+@click.argument('file', required=False, type=click.Path())
+def predict_selector_html(file):
+    """Predict CSS selector from a HTML snippet."""
+    from src import html_only_predictor as hp
+    if file:
+        with open(file, 'r', encoding='utf-8') as f:
+            html = f.read()
+    else:
+        import sys
+        html = sys.stdin.read()
+    selector = hp.predict_selector(html)
+    click.echo(selector)
+
 @cli.command()
 def serve():
     """Run the Flask web interface."""
