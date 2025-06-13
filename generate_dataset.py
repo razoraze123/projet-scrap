@@ -52,7 +52,8 @@ def main() -> None:
     start_index = len(existing)
     new_entries = []
     i = start_index
-    while len(new_entries) < 1000:
+    # Generate 2000 new unique HTML blocks on each run
+    while len(new_entries) < 2000:
         html = generate_html(i)
         if html not in existing:
             new_entries.append({'html': html})
