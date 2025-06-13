@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 from css_selector_generator import generate_selector
 from src.memoire_generale import ajouter_interaction
+import config
 
 app = Flask(__name__)
 
@@ -21,4 +22,4 @@ def index():
     return render_template('index.html', selector=selector, html=html_snippet)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=config.FLASK_DEBUG, host=config.FLASK_HOST, port=config.FLASK_PORT)

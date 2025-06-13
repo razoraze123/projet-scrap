@@ -10,6 +10,17 @@ Installez les dépendances :
 pip install -r requirements.txt
 ```
 
+### Utilisation de la CLI
+
+Toutes les actions principales sont accessibles via `cli.py` :
+
+```bash
+python cli.py generate         # génère un dataset HTML
+python cli.py train-classifier # entraîne le classifieur
+python cli.py train-selector   # entraîne le modèle de sélecteur
+python cli.py serve            # lance le serveur Flask
+```
+
 ## Entraîner le modèle
 
 Le dataset se trouve dans `data/intents.jsonl`. Lancez l'entraînement (CPU) :
