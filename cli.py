@@ -24,6 +24,13 @@ def train_selector():
     from src import train_html_selector_model as th
     th.main()
 
+
+@cli.command('train-selector-html')
+def train_selector_html():
+    """Train the HTML-only selector model."""
+    from src import train_html_only_selector_model as thh
+    thh.main()
+
 @cli.command()
 def serve():
     """Run the Flask web interface."""

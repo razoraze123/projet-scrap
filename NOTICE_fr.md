@@ -15,9 +15,11 @@ Ce fichier récapitule rapidement les étapes principales du projet.
     ```bash
     python -m src.train_classifier
     python -m src.train_html_selector_model
+    python -m src.train_html_only_selector_model
     ```
-    (les commandes `python cli.py train-classifier` et
-    `python cli.py train-selector` sont équivalentes)
+    (les commandes `python cli.py train-classifier`,
+    `python cli.py train-selector` et
+    `python cli.py train-selector-html` sont équivalentes)
 
     Les fichiers générés seront sauvegardés dans `model/`.
 
