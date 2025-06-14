@@ -34,6 +34,19 @@ Cette commande peut aussi être exécutée via `python cli.py train-classifier`.
 
 Le modèle et le tokenizer seront sauvegardés dans `model/trained_model/`.
 
+### Entraîner le modèle sélecteur
+
+Le dataset se trouve dans `data/html_selector_dataset.jsonl`. Lancez
+l'entraînement :
+
+```bash
+python -m src.train_html_selector_model
+```
+
+Vous pouvez également exécuter `python cli.py train-selector`.
+
+Les fichiers du modèle seront sauvegardés dans `model/html_selector/`.
+
 ## Tester en ligne de commande
 
 ```bash
